@@ -1,0 +1,4938 @@
+{
+  "metadata": {
+    "run_date": "2026-04-10T19:28:36.281280",
+    "total_ticks": 138,
+    "total_births": 449,
+    "total_deaths": 0,
+    "total_agents": 451,
+    "final_pop": 250,
+    "max_gen": 7,
+    "elapsed_s": 0.3
+  },
+  "censuses": [
+    {
+      "generation": 0,
+      "tick": 0,
+      "timestamp": "2026-04-10T19:28:35.980840",
+      "population": 2,
+      "gen_population": 2,
+      "M_mean": 3000.0,
+      "M_std": 0.0,
+      "M_max": 3000.0,
+      "M_min": 3000.0,
+      "M_total": 6000.0,
+      "M_gini": 0.0,
+      "C_mean": 0.98115,
+      "C_std": 0.00385,
+      "C_min": 0.9773,
+      "I_mean": 770.14,
+      "I_max": 770.15,
+      "I_std": 0.0,
+      "chi_off_diag_mean": 1.0,
+      "chi_off_diag_std": 0.0,
+      "chi_off_diag_min": 1.0,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        2.0,
+        0.0
+      ],
+      "lambda_1": 2.0,
+      "lambda_ratio_1_2": "inf",
+      "max_generation": 0,
+      "generation_dist": {
+        "0": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "total_births_ever": 0,
+      "anomalies": [],
+      "quantum_cumulative_divergence": 0.0
+    },
+    {
+      "generation": 1,
+      "tick": 16,
+      "timestamp": "2026-04-10T19:28:35.983285",
+      "population": 2,
+      "gen_population": 2,
+      "M_mean": 4521.07,
+      "M_std": 1521.07,
+      "M_max": 6042.13,
+      "M_min": 3000.0,
+      "M_total": 9042.13,
+      "M_gini": 0.1682,
+      "C_mean": 0.97909,
+      "C_std": 0.000268,
+      "C_min": 0.97883,
+      "I_mean": 926.98,
+      "I_max": 1083.82,
+      "I_std": 156.84,
+      "chi_off_diag_mean": 1.0,
+      "chi_off_diag_std": 0.0,
+      "chi_off_diag_min": 1.0,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        2.0,
+        0.0
+      ],
+      "lambda_1": 2.0,
+      "lambda_ratio_1_2": "inf",
+      "max_generation": 0,
+      "generation_dist": {
+        "0": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "total_births_ever": 1,
+      "anomalies": [],
+      "quantum_cumulative_divergence": 0.0601
+    },
+    {
+      "generation": 2,
+      "tick": 32,
+      "timestamp": "2026-04-10T19:28:35.986232",
+      "population": 4,
+      "gen_population": 4,
+      "M_mean": 3759.05,
+      "M_std": 1314.71,
+      "M_max": 6036.2,
+      "M_min": 3000.0,
+      "M_total": 15036.2,
+      "M_gini": 0.1514,
+      "C_mean": 0.97703,
+      "C_std": 0.004616,
+      "C_min": 0.97066,
+      "I_mean": 848.44,
+      "I_max": 1083.35,
+      "I_std": 135.62,
+      "chi_off_diag_mean": 0.96997,
+      "chi_off_diag_std": 0.03003,
+      "chi_off_diag_min": 0.93994,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        3.9106,
+        0.0894,
+        0.0,
+        -0.0
+      ],
+      "lambda_1": 3.9106,
+      "lambda_ratio_1_2": 43.7514,
+      "max_generation": 1,
+      "generation_dist": {
+        "0": 2,
+        "1": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "total_births_ever": 5,
+      "anomalies": [],
+      "quantum_cumulative_divergence": 0.3449
+    },
+    {
+      "generation": 3,
+      "tick": 48,
+      "timestamp": "2026-04-10T19:28:35.990731",
+      "population": 8,
+      "gen_population": 8,
+      "M_mean": 3378.48,
+      "M_std": 1001.35,
+      "M_max": 6027.81,
+      "M_min": 3000.0,
+      "M_total": 27027.81,
+      "M_gini": 0.098,
+      "C_mean": 0.97281,
+      "C_std": 0.008131,
+      "C_min": 0.96066,
+      "I_mean": 809.21,
+      "I_max": 1082.68,
+      "I_std": 103.36,
+      "chi_off_diag_mean": 0.88717,
+      "chi_off_diag_std": 0.07319,
+      "chi_off_diag_min": 0.72531,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        7.2132,
+        0.5586,
+        0.1784,
+        0.0334,
+        0.0099,
+        0.0064
+      ],
+      "lambda_1": 7.2132,
+      "lambda_ratio_1_2": 12.912,
+      "max_generation": 2,
+      "generation_dist": {
+        "0": 2,
+        "1": 4,
+        "2": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "total_births_ever": 13,
+      "anomalies": [],
+      "quantum_cumulative_divergence": 0.7152
+    },
+    {
+      "generation": 4,
+      "tick": 64,
+      "timestamp": "2026-04-10T19:28:35.998056",
+      "population": 16,
+      "gen_population": 16,
+      "M_mean": 3188.55,
+      "M_std": 730.24,
+      "M_max": 6016.74,
+      "M_min": 3000.0,
+      "M_total": 51016.74,
+      "M_gini": 0.0554,
+      "C_mean": 0.97008,
+      "C_std": 0.00961,
+      "C_min": 0.95317,
+      "I_mean": 789.62,
+      "I_max": 1081.81,
+      "I_std": 75.44,
+      "chi_off_diag_mean": 0.82177,
+      "chi_off_diag_std": 0.11235,
+      "chi_off_diag_min": 0.51378,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        13.3577,
+        1.3278,
+        0.8999,
+        0.3048,
+        0.0935,
+        0.0177
+      ],
+      "lambda_1": 13.3577,
+      "lambda_ratio_1_2": 10.0599,
+      "max_generation": 3,
+      "generation_dist": {
+        "0": 2,
+        "1": 6,
+        "2": 6,
+        "3": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "total_births_ever": 29,
+      "anomalies": [
+        {
+          "agent_id": 15,
+          "generation": 3,
+          "M": 6016.738666235776,
+          "C": 0.9603369763993123,
+          "births": 0,
+          "flags": [
+            "HYPER_METABOLIC z=3.87",
+            "HYPER_INTENT z=3.87"
+          ]
+        }
+      ],
+      "quantum_cumulative_divergence": 1.4191
+    },
+    {
+      "generation": 5,
+      "tick": 80,
+      "timestamp": "2026-04-10T19:28:36.033147",
+      "population": 32,
+      "gen_population": 32,
+      "M_mean": 3093.92,
+      "M_std": 522.92,
+      "M_max": 6005.43,
+      "M_min": 3000.0,
+      "M_total": 99005.43,
+      "M_gini": 0.0294,
+      "C_mean": 0.96721,
+      "C_std": 0.010784,
+      "C_min": 0.94558,
+      "I_mean": 779.85,
+      "I_max": 1080.9,
+      "I_std": 54.07,
+      "chi_off_diag_mean": 0.75334,
+      "chi_off_diag_std": 0.16464,
+      "chi_off_diag_min": 0.06832,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        23.0587,
+        3.2206,
+        1.7574,
+        1.4044,
+        0.3707,
+        0.1894
+      ],
+      "lambda_1": 23.0587,
+      "lambda_ratio_1_2": 7.1598,
+      "max_generation": 4,
+      "generation_dist": {
+        "0": 2,
+        "1": 8,
+        "2": 12,
+        "3": 8,
+        "4": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "total_births_ever": 61,
+      "anomalies": [
+        {
+          "agent_id": 0,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9825254955399472,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 1,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9894696173723423,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 31,
+          "generation": 4,
+          "M": 6005.426219487433,
+          "C": 0.9495767916231396,
+          "births": 0,
+          "flags": [
+            "HYPER_METABOLIC z=5.57",
+            "HYPER_INTENT z=5.57"
+          ]
+        }
+      ],
+      "quantum_cumulative_divergence": 3.0311
+    },
+    {
+      "generation": 6,
+      "tick": 112,
+      "timestamp": "2026-04-10T19:28:36.102836",
+      "population": 116,
+      "gen_population": 116,
+      "M_mean": 3881.07,
+      "M_std": 1368.3,
+      "M_max": 6022.09,
+      "M_min": 3000.0,
+      "M_total": 450204.16,
+      "M_gini": 0.1606,
+      "C_mean": 0.9608,
+      "C_std": 0.010854,
+      "C_min": 0.94069,
+      "I_mean": 861.23,
+      "I_max": 1082.23,
+      "I_std": 141.48,
+      "chi_off_diag_mean": 0.65281,
+      "chi_off_diag_std": 0.21509,
+      "chi_off_diag_min": 0.06371,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        20.3232,
+        4.1017,
+        2.316,
+        1.8642,
+        1.3141,
+        0.4501
+      ],
+      "lambda_1": 20.3232,
+      "lambda_ratio_1_2": 4.9549,
+      "max_generation": 5,
+      "generation_dist": {
+        "0": 2,
+        "1": 12,
+        "2": 30,
+        "3": 40,
+        "4": 26,
+        "5": 6
+      },
+      "top_dynasties": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "total_births_ever": 202,
+      "anomalies": [
+        {
+          "agent_id": 1,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9932458974857279,
+          "births": 7,
+          "flags": [
+            "DYNASTY births=7"
+          ]
+        },
+        {
+          "agent_id": 0,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9772118960470979,
+          "births": 7,
+          "flags": [
+            "DYNASTY births=7"
+          ]
+        },
+        {
+          "agent_id": 4,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9759180910038887,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 2,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9747589436462737,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 3,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.971359488752169,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 5,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.968232878229258,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 7,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9633807376515728,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 6,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9598418937893434,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        }
+      ],
+      "quantum_cumulative_divergence": 9.1098
+    },
+    {
+      "generation": 7,
+      "tick": 128,
+      "timestamp": "2026-04-10T19:28:36.197990",
+      "population": 213,
+      "gen_population": 213,
+      "M_mean": 3492.69,
+      "M_std": 1111.08,
+      "M_max": 6002.53,
+      "M_min": 3000.0,
+      "M_total": 743941.93,
+      "M_gini": 0.1179,
+      "C_mean": 0.9588,
+      "C_std": 0.010987,
+      "C_min": 0.93615,
+      "I_mean": 821.1,
+      "I_max": 1080.68,
+      "I_std": 114.95,
+      "chi_off_diag_mean": 0.55666,
+      "chi_off_diag_std": 0.23795,
+      "chi_off_diag_min": 0.01205,
+      "chi_off_diag_max": 1.0,
+      "eigenvalues_top6": [
+        17.3863,
+        5.2517,
+        3.0032,
+        2.175,
+        1.7945,
+        0.9697
+      ],
+      "lambda_1": 17.3863,
+      "lambda_ratio_1_2": 3.3106,
+      "max_generation": 6,
+      "generation_dist": {
+        "0": 2,
+        "1": 14,
+        "2": 42,
+        "3": 70,
+        "4": 60,
+        "5": 23,
+        "6": 2
+      },
+      "top_dynasties": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "total_births_ever": 414,
+      "anomalies": [
+        {
+          "agent_id": 1,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9952508787435701,
+          "births": 8,
+          "flags": [
+            "DYNASTY births=8"
+          ]
+        },
+        {
+          "agent_id": 8,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9809060431699045,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 9,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9730175972892872,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 0,
+          "generation": 0,
+          "M": 3000.0,
+          "C": 0.9760390205797844,
+          "births": 8,
+          "flags": [
+            "DYNASTY births=8"
+          ]
+        },
+        {
+          "agent_id": 4,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.977660922669012,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 2,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9765873396536601,
+          "births": 7,
+          "flags": [
+            "DYNASTY births=7"
+          ]
+        },
+        {
+          "agent_id": 12,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9735185254655083,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 3,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9686949499421202,
+          "births": 7,
+          "flags": [
+            "DYNASTY births=7"
+          ]
+        },
+        {
+          "agent_id": 10,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9661197626204245,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 5,
+          "generation": 1,
+          "M": 3000.0,
+          "C": 0.9661178993200132,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 13,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.965460239838198,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 15,
+          "generation": 3,
+          "M": 3000.0,
+          "C": 0.9634432333838496,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 7,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9665244211318875,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 11,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9590391896280516,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        },
+        {
+          "agent_id": 6,
+          "generation": 2,
+          "M": 3000.0,
+          "C": 0.9522432377682907,
+          "births": 6,
+          "flags": [
+            "DYNASTY births=6"
+          ]
+        },
+        {
+          "agent_id": 14,
+          "generation": 3,
+          "M": 3000.0,
+          "C": 0.9538104673398773,
+          "births": 5,
+          "flags": [
+            "DYNASTY births=5"
+          ]
+        }
+      ],
+      "quantum_cumulative_divergence": 19.2513
+    }
+  ],
+  "birth_log": [
+    {
+      "tick": 16,
+      "mother_id": 0,
+      "daughter_id": 2,
+      "generation": 1,
+      "orthogonality": 0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.97936
+    },
+    {
+      "tick": 16,
+      "mother_id": 1,
+      "daughter_id": 3,
+      "generation": 1,
+      "orthogonality": 0.06006,
+      "mother_M": 3000.0,
+      "mother_C": 0.98006
+    },
+    {
+      "tick": 32,
+      "mother_id": 0,
+      "daughter_id": 4,
+      "generation": 1,
+      "orthogonality": -0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.9832
+    },
+    {
+      "tick": 32,
+      "mother_id": 1,
+      "daughter_id": 5,
+      "generation": 1,
+      "orthogonality": 0.07795,
+      "mother_M": 3000.0,
+      "mother_C": 0.97896
+    },
+    {
+      "tick": 32,
+      "mother_id": 2,
+      "daughter_id": 6,
+      "generation": 2,
+      "orthogonality": 0.06326,
+      "mother_M": 3000.0,
+      "mother_C": 0.97066
+    },
+    {
+      "tick": 32,
+      "mother_id": 3,
+      "daughter_id": 7,
+      "generation": 2,
+      "orthogonality": 0.03995,
+      "mother_M": 3000.0,
+      "mother_C": 0.97549
+    },
+    {
+      "tick": 48,
+      "mother_id": 0,
+      "daughter_id": 8,
+      "generation": 1,
+      "orthogonality": 0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.98013
+    },
+    {
+      "tick": 48,
+      "mother_id": 1,
+      "daughter_id": 9,
+      "generation": 1,
+      "orthogonality": 0.02719,
+      "mother_M": 3000.0,
+      "mother_C": 0.9848
+    },
+    {
+      "tick": 48,
+      "mother_id": 2,
+      "daughter_id": 10,
+      "generation": 2,
+      "orthogonality": 0.02325,
+      "mother_M": 3000.0,
+      "mother_C": 0.97195
+    },
+    {
+      "tick": 48,
+      "mother_id": 3,
+      "daughter_id": 11,
+      "generation": 2,
+      "orthogonality": 0.02676,
+      "mother_M": 3000.0,
+      "mother_C": 0.97162
+    },
+    {
+      "tick": 48,
+      "mother_id": 4,
+      "daughter_id": 12,
+      "generation": 2,
+      "orthogonality": 0.07283,
+      "mother_M": 3000.0,
+      "mother_C": 0.98179
+    },
+    {
+      "tick": 48,
+      "mother_id": 5,
+      "daughter_id": 13,
+      "generation": 2,
+      "orthogonality": 0.11718,
+      "mother_M": 3000.0,
+      "mother_C": 0.96479
+    },
+    {
+      "tick": 48,
+      "mother_id": 6,
+      "daughter_id": 14,
+      "generation": 3,
+      "orthogonality": 0.20067,
+      "mother_M": 3000.0,
+      "mother_C": 0.96066
+    },
+    {
+      "tick": 48,
+      "mother_id": 7,
+      "daughter_id": 15,
+      "generation": 3,
+      "orthogonality": 0.32719,
+      "mother_M": 3000.0,
+      "mother_C": 0.96661
+    },
+    {
+      "tick": 64,
+      "mother_id": 0,
+      "daughter_id": 16,
+      "generation": 1,
+      "orthogonality": -0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.97986
+    },
+    {
+      "tick": 64,
+      "mother_id": 1,
+      "daughter_id": 17,
+      "generation": 1,
+      "orthogonality": 0.02295,
+      "mother_M": 3000.0,
+      "mother_C": 0.9899
+    },
+    {
+      "tick": 64,
+      "mother_id": 2,
+      "daughter_id": 18,
+      "generation": 2,
+      "orthogonality": 0.01337,
+      "mother_M": 3000.0,
+      "mother_C": 0.97185
+    },
+    {
+      "tick": 64,
+      "mother_id": 3,
+      "daughter_id": 19,
+      "generation": 2,
+      "orthogonality": 0.05527,
+      "mother_M": 3000.0,
+      "mother_C": 0.97256
+    },
+    {
+      "tick": 64,
+      "mother_id": 4,
+      "daughter_id": 20,
+      "generation": 2,
+      "orthogonality": 0.16362,
+      "mother_M": 3000.0,
+      "mother_C": 0.97913
+    },
+    {
+      "tick": 64,
+      "mother_id": 5,
+      "daughter_id": 21,
+      "generation": 2,
+      "orthogonality": 0.1129,
+      "mother_M": 3000.0,
+      "mother_C": 0.96877
+    },
+    {
+      "tick": 64,
+      "mother_id": 6,
+      "daughter_id": 22,
+      "generation": 3,
+      "orthogonality": 0.17108,
+      "mother_M": 3000.0,
+      "mother_C": 0.95827
+    },
+    {
+      "tick": 64,
+      "mother_id": 7,
+      "daughter_id": 23,
+      "generation": 3,
+      "orthogonality": 0.33397,
+      "mother_M": 3000.0,
+      "mother_C": 0.96398
+    },
+    {
+      "tick": 64,
+      "mother_id": 8,
+      "daughter_id": 24,
+      "generation": 2,
+      "orthogonality": 0.32944,
+      "mother_M": 3000.0,
+      "mother_C": 0.97841
+    },
+    {
+      "tick": 64,
+      "mother_id": 9,
+      "daughter_id": 25,
+      "generation": 2,
+      "orthogonality": 0.55442,
+      "mother_M": 3000.0,
+      "mother_C": 0.97944
+    },
+    {
+      "tick": 64,
+      "mother_id": 10,
+      "daughter_id": 26,
+      "generation": 3,
+      "orthogonality": 0.39981,
+      "mother_M": 3000.0,
+      "mother_C": 0.96567
+    },
+    {
+      "tick": 64,
+      "mother_id": 11,
+      "daughter_id": 27,
+      "generation": 3,
+      "orthogonality": 0.37744,
+      "mother_M": 3000.0,
+      "mother_C": 0.96369
+    },
+    {
+      "tick": 64,
+      "mother_id": 12,
+      "daughter_id": 28,
+      "generation": 3,
+      "orthogonality": 0.62829,
+      "mother_M": 3000.0,
+      "mother_C": 0.9757
+    },
+    {
+      "tick": 64,
+      "mother_id": 13,
+      "daughter_id": 29,
+      "generation": 3,
+      "orthogonality": 0.84744,
+      "mother_M": 3000.0,
+      "mother_C": 0.9606
+    },
+    {
+      "tick": 64,
+      "mother_id": 14,
+      "daughter_id": 30,
+      "generation": 4,
+      "orthogonality": 0.73852,
+      "mother_M": 3000.0,
+      "mother_C": 0.95317
+    },
+    {
+      "tick": 64,
+      "mother_id": 15,
+      "daughter_id": 31,
+      "generation": 4,
+      "orthogonality": 0.5241,
+      "mother_M": 3000.0,
+      "mother_C": 0.95927
+    },
+    {
+      "tick": 80,
+      "mother_id": 0,
+      "daughter_id": 32,
+      "generation": 1,
+      "orthogonality": -0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.98253
+    },
+    {
+      "tick": 80,
+      "mother_id": 1,
+      "daughter_id": 33,
+      "generation": 1,
+      "orthogonality": 0.05671,
+      "mother_M": 3000.0,
+      "mother_C": 0.98947
+    },
+    {
+      "tick": 80,
+      "mother_id": 2,
+      "daughter_id": 34,
+      "generation": 2,
+      "orthogonality": 0.0533,
+      "mother_M": 3000.0,
+      "mother_C": 0.97109
+    },
+    {
+      "tick": 80,
+      "mother_id": 3,
+      "daughter_id": 35,
+      "generation": 2,
+      "orthogonality": 0.2319,
+      "mother_M": 3000.0,
+      "mother_C": 0.9706
+    },
+    {
+      "tick": 80,
+      "mother_id": 4,
+      "daughter_id": 36,
+      "generation": 2,
+      "orthogonality": 0.0919,
+      "mother_M": 3000.0,
+      "mother_C": 0.98278
+    },
+    {
+      "tick": 80,
+      "mother_id": 5,
+      "daughter_id": 37,
+      "generation": 2,
+      "orthogonality": 0.06926,
+      "mother_M": 3000.0,
+      "mother_C": 0.97036
+    },
+    {
+      "tick": 80,
+      "mother_id": 6,
+      "daughter_id": 38,
+      "generation": 3,
+      "orthogonality": 0.08315,
+      "mother_M": 3000.0,
+      "mother_C": 0.96242
+    },
+    {
+      "tick": 80,
+      "mother_id": 7,
+      "daughter_id": 39,
+      "generation": 3,
+      "orthogonality": 0.1027,
+      "mother_M": 3000.0,
+      "mother_C": 0.96506
+    },
+    {
+      "tick": 80,
+      "mother_id": 8,
+      "daughter_id": 40,
+      "generation": 2,
+      "orthogonality": 0.24384,
+      "mother_M": 3000.0,
+      "mother_C": 0.9804
+    },
+    {
+      "tick": 80,
+      "mother_id": 9,
+      "daughter_id": 41,
+      "generation": 2,
+      "orthogonality": 0.05611,
+      "mother_M": 3000.0,
+      "mother_C": 0.98033
+    },
+    {
+      "tick": 80,
+      "mother_id": 10,
+      "daughter_id": 42,
+      "generation": 3,
+      "orthogonality": 0.14019,
+      "mother_M": 3000.0,
+      "mother_C": 0.9665
+    },
+    {
+      "tick": 80,
+      "mother_id": 11,
+      "daughter_id": 43,
+      "generation": 3,
+      "orthogonality": 0.07201,
+      "mother_M": 3000.0,
+      "mother_C": 0.96052
+    },
+    {
+      "tick": 80,
+      "mother_id": 12,
+      "daughter_id": 44,
+      "generation": 3,
+      "orthogonality": 0.10226,
+      "mother_M": 3000.0,
+      "mother_C": 0.97452
+    },
+    {
+      "tick": 80,
+      "mother_id": 13,
+      "daughter_id": 45,
+      "generation": 3,
+      "orthogonality": 0.07984,
+      "mother_M": 3000.0,
+      "mother_C": 0.96226
+    },
+    {
+      "tick": 80,
+      "mother_id": 14,
+      "daughter_id": 46,
+      "generation": 4,
+      "orthogonality": 0.10573,
+      "mother_M": 3000.0,
+      "mother_C": 0.95668
+    },
+    {
+      "tick": 80,
+      "mother_id": 15,
+      "daughter_id": 47,
+      "generation": 4,
+      "orthogonality": 0.09982,
+      "mother_M": 3000.0,
+      "mother_C": 0.95982
+    },
+    {
+      "tick": 80,
+      "mother_id": 16,
+      "daughter_id": 48,
+      "generation": 2,
+      "orthogonality": 0.15603,
+      "mother_M": 3000.0,
+      "mother_C": 0.97499
+    },
+    {
+      "tick": 80,
+      "mother_id": 17,
+      "daughter_id": 49,
+      "generation": 2,
+      "orthogonality": 0.29812,
+      "mother_M": 3000.0,
+      "mother_C": 0.98673
+    },
+    {
+      "tick": 80,
+      "mother_id": 18,
+      "daughter_id": 50,
+      "generation": 3,
+      "orthogonality": 0.36495,
+      "mother_M": 3000.0,
+      "mother_C": 0.96615
+    },
+    {
+      "tick": 80,
+      "mother_id": 19,
+      "daughter_id": 51,
+      "generation": 3,
+      "orthogonality": 0.27954,
+      "mother_M": 3000.0,
+      "mother_C": 0.96568
+    },
+    {
+      "tick": 80,
+      "mother_id": 20,
+      "daughter_id": 52,
+      "generation": 3,
+      "orthogonality": 0.15907,
+      "mother_M": 3000.0,
+      "mother_C": 0.97029
+    },
+    {
+      "tick": 80,
+      "mother_id": 21,
+      "daughter_id": 53,
+      "generation": 3,
+      "orthogonality": 0.40949,
+      "mother_M": 3000.0,
+      "mother_C": 0.96096
+    },
+    {
+      "tick": 80,
+      "mother_id": 22,
+      "daughter_id": 54,
+      "generation": 4,
+      "orthogonality": 0.47757,
+      "mother_M": 3000.0,
+      "mother_C": 0.94943
+    },
+    {
+      "tick": 80,
+      "mother_id": 23,
+      "daughter_id": 55,
+      "generation": 4,
+      "orthogonality": 0.45047,
+      "mother_M": 3000.0,
+      "mother_C": 0.95883
+    },
+    {
+      "tick": 80,
+      "mother_id": 24,
+      "daughter_id": 56,
+      "generation": 3,
+      "orthogonality": 0.51848,
+      "mother_M": 3000.0,
+      "mother_C": 0.97167
+    },
+    {
+      "tick": 80,
+      "mother_id": 25,
+      "daughter_id": 57,
+      "generation": 3,
+      "orthogonality": 0.52722,
+      "mother_M": 3000.0,
+      "mother_C": 0.96992
+    },
+    {
+      "tick": 80,
+      "mother_id": 26,
+      "daughter_id": 58,
+      "generation": 4,
+      "orthogonality": 0.55335,
+      "mother_M": 3000.0,
+      "mother_C": 0.95855
+    },
+    {
+      "tick": 80,
+      "mother_id": 27,
+      "daughter_id": 59,
+      "generation": 4,
+      "orthogonality": 0.50636,
+      "mother_M": 3000.0,
+      "mother_C": 0.95398
+    },
+    {
+      "tick": 80,
+      "mother_id": 28,
+      "daughter_id": 60,
+      "generation": 4,
+      "orthogonality": 0.49499,
+      "mother_M": 3000.0,
+      "mother_C": 0.97406
+    },
+    {
+      "tick": 80,
+      "mother_id": 29,
+      "daughter_id": 61,
+      "generation": 4,
+      "orthogonality": 0.69178,
+      "mother_M": 3000.0,
+      "mother_C": 0.959
+    },
+    {
+      "tick": 80,
+      "mother_id": 30,
+      "daughter_id": 62,
+      "generation": 5,
+      "orthogonality": 0.54045,
+      "mother_M": 3000.0,
+      "mother_C": 0.94558
+    },
+    {
+      "tick": 80,
+      "mother_id": 31,
+      "daughter_id": 63,
+      "generation": 5,
+      "orthogonality": 0.36665,
+      "mother_M": 3000.0,
+      "mother_C": 0.95147
+    },
+    {
+      "tick": 96,
+      "mother_id": 1,
+      "daughter_id": 64,
+      "generation": 1,
+      "orthogonality": 0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.98906
+    },
+    {
+      "tick": 96,
+      "mother_id": 17,
+      "daughter_id": 65,
+      "generation": 2,
+      "orthogonality": 0.05375,
+      "mother_M": 3000.0,
+      "mother_C": 0.98615
+    },
+    {
+      "tick": 96,
+      "mother_id": 0,
+      "daughter_id": 66,
+      "generation": 1,
+      "orthogonality": 0.0369,
+      "mother_M": 3000.0,
+      "mother_C": 0.97955
+    },
+    {
+      "tick": 96,
+      "mother_id": 4,
+      "daughter_id": 67,
+      "generation": 2,
+      "orthogonality": 0.11975,
+      "mother_M": 3000.0,
+      "mother_C": 0.97799
+    },
+    {
+      "tick": 96,
+      "mother_id": 9,
+      "daughter_id": 68,
+      "generation": 2,
+      "orthogonality": 0.07423,
+      "mother_M": 3000.0,
+      "mother_C": 0.98134
+    },
+    {
+      "tick": 96,
+      "mother_id": 49,
+      "daughter_id": 69,
+      "generation": 3,
+      "orthogonality": 0.08156,
+      "mother_M": 3000.0,
+      "mother_C": 0.97867
+    },
+    {
+      "tick": 96,
+      "mother_id": 33,
+      "daughter_id": 70,
+      "generation": 2,
+      "orthogonality": 0.03698,
+      "mother_M": 3000.0,
+      "mother_C": 0.98225
+    },
+    {
+      "tick": 96,
+      "mother_id": 8,
+      "daughter_id": 71,
+      "generation": 2,
+      "orthogonality": 0.06997,
+      "mother_M": 3000.0,
+      "mother_C": 0.97602
+    },
+    {
+      "tick": 96,
+      "mother_id": 16,
+      "daughter_id": 72,
+      "generation": 2,
+      "orthogonality": 0.02922,
+      "mother_M": 3000.0,
+      "mother_C": 0.9722
+    },
+    {
+      "tick": 96,
+      "mother_id": 32,
+      "daughter_id": 73,
+      "generation": 2,
+      "orthogonality": 0.05246,
+      "mother_M": 3000.0,
+      "mother_C": 0.97826
+    },
+    {
+      "tick": 96,
+      "mother_id": 28,
+      "daughter_id": 74,
+      "generation": 4,
+      "orthogonality": 0.06795,
+      "mother_M": 3000.0,
+      "mother_C": 0.97489
+    },
+    {
+      "tick": 96,
+      "mother_id": 36,
+      "daughter_id": 75,
+      "generation": 3,
+      "orthogonality": 0.21024,
+      "mother_M": 3000.0,
+      "mother_C": 0.97307
+    },
+    {
+      "tick": 96,
+      "mother_id": 12,
+      "daughter_id": 76,
+      "generation": 3,
+      "orthogonality": 0.13213,
+      "mother_M": 3000.0,
+      "mother_C": 0.97286
+    },
+    {
+      "tick": 96,
+      "mother_id": 40,
+      "daughter_id": 77,
+      "generation": 3,
+      "orthogonality": 0.22666,
+      "mother_M": 3000.0,
+      "mother_C": 0.97111
+    },
+    {
+      "tick": 96,
+      "mother_id": 20,
+      "daughter_id": 78,
+      "generation": 3,
+      "orthogonality": 0.24118,
+      "mother_M": 3000.0,
+      "mother_C": 0.9735
+    },
+    {
+      "tick": 96,
+      "mother_id": 2,
+      "daughter_id": 79,
+      "generation": 2,
+      "orthogonality": 0.21908,
+      "mother_M": 3000.0,
+      "mother_C": 0.97363
+    },
+    {
+      "tick": 96,
+      "mother_id": 3,
+      "daughter_id": 80,
+      "generation": 2,
+      "orthogonality": 0.12189,
+      "mother_M": 3000.0,
+      "mother_C": 0.97378
+    },
+    {
+      "tick": 96,
+      "mother_id": 24,
+      "daughter_id": 81,
+      "generation": 3,
+      "orthogonality": 0.08279,
+      "mother_M": 3000.0,
+      "mother_C": 0.97348
+    },
+    {
+      "tick": 96,
+      "mother_id": 25,
+      "daughter_id": 82,
+      "generation": 3,
+      "orthogonality": 0.06221,
+      "mother_M": 3000.0,
+      "mother_C": 0.97236
+    },
+    {
+      "tick": 96,
+      "mother_id": 5,
+      "daughter_id": 83,
+      "generation": 2,
+      "orthogonality": 0.10836,
+      "mother_M": 3000.0,
+      "mother_C": 0.9708
+    },
+    {
+      "tick": 96,
+      "mother_id": 41,
+      "daughter_id": 84,
+      "generation": 3,
+      "orthogonality": 0.05222,
+      "mother_M": 3000.0,
+      "mother_C": 0.96704
+    },
+    {
+      "tick": 96,
+      "mother_id": 48,
+      "daughter_id": 85,
+      "generation": 3,
+      "orthogonality": 0.03027,
+      "mother_M": 3000.0,
+      "mother_C": 0.96666
+    },
+    {
+      "tick": 96,
+      "mother_id": 7,
+      "daughter_id": 86,
+      "generation": 3,
+      "orthogonality": 0.01176,
+      "mother_M": 3000.0,
+      "mother_C": 0.96769
+    },
+    {
+      "tick": 96,
+      "mother_id": 60,
+      "daughter_id": 87,
+      "generation": 5,
+      "orthogonality": 0.03587,
+      "mother_M": 3000.0,
+      "mother_C": 0.96145
+    },
+    {
+      "tick": 96,
+      "mother_id": 44,
+      "daughter_id": 88,
+      "generation": 4,
+      "orthogonality": 0.02359,
+      "mother_M": 3000.0,
+      "mother_C": 0.96649
+    },
+    {
+      "tick": 96,
+      "mother_id": 10,
+      "daughter_id": 89,
+      "generation": 3,
+      "orthogonality": 0.00967,
+      "mother_M": 3000.0,
+      "mother_C": 0.96426
+    },
+    {
+      "tick": 96,
+      "mother_id": 19,
+      "daughter_id": 90,
+      "generation": 3,
+      "orthogonality": 0.04474,
+      "mother_M": 3000.0,
+      "mother_C": 0.96343
+    },
+    {
+      "tick": 96,
+      "mother_id": 6,
+      "daughter_id": 91,
+      "generation": 3,
+      "orthogonality": 0.13009,
+      "mother_M": 3000.0,
+      "mother_C": 0.96248
+    },
+    {
+      "tick": 96,
+      "mother_id": 18,
+      "daughter_id": 92,
+      "generation": 3,
+      "orthogonality": 0.24408,
+      "mother_M": 3000.0,
+      "mother_C": 0.96588
+    },
+    {
+      "tick": 96,
+      "mother_id": 56,
+      "daughter_id": 93,
+      "generation": 4,
+      "orthogonality": 0.12993,
+      "mother_M": 3000.0,
+      "mother_C": 0.96091
+    },
+    {
+      "tick": 96,
+      "mother_id": 37,
+      "daughter_id": 94,
+      "generation": 3,
+      "orthogonality": 0.23714,
+      "mother_M": 3000.0,
+      "mother_C": 0.95974
+    },
+    {
+      "tick": 96,
+      "mother_id": 57,
+      "daughter_id": 95,
+      "generation": 4,
+      "orthogonality": 0.21614,
+      "mother_M": 3000.0,
+      "mother_C": 0.9628
+    },
+    {
+      "tick": 96,
+      "mother_id": 34,
+      "daughter_id": 96,
+      "generation": 3,
+      "orthogonality": 0.25007,
+      "mother_M": 3000.0,
+      "mother_C": 0.96566
+    },
+    {
+      "tick": 96,
+      "mother_id": 15,
+      "daughter_id": 97,
+      "generation": 4,
+      "orthogonality": 0.16346,
+      "mother_M": 3000.0,
+      "mother_C": 0.96381
+    },
+    {
+      "tick": 96,
+      "mother_id": 35,
+      "daughter_id": 98,
+      "generation": 3,
+      "orthogonality": 0.14795,
+      "mother_M": 3000.0,
+      "mother_C": 0.96351
+    },
+    {
+      "tick": 96,
+      "mother_id": 13,
+      "daughter_id": 99,
+      "generation": 3,
+      "orthogonality": 0.25696,
+      "mother_M": 3000.0,
+      "mother_C": 0.96491
+    },
+    {
+      "tick": 96,
+      "mother_id": 11,
+      "daughter_id": 100,
+      "generation": 3,
+      "orthogonality": 0.39264,
+      "mother_M": 3000.0,
+      "mother_C": 0.95915
+    },
+    {
+      "tick": 96,
+      "mother_id": 21,
+      "daughter_id": 101,
+      "generation": 3,
+      "orthogonality": 0.49572,
+      "mother_M": 3000.0,
+      "mother_C": 0.95864
+    },
+    {
+      "tick": 96,
+      "mother_id": 52,
+      "daughter_id": 102,
+      "generation": 4,
+      "orthogonality": 0.54414,
+      "mother_M": 3000.0,
+      "mother_C": 0.95832
+    },
+    {
+      "tick": 96,
+      "mother_id": 50,
+      "daughter_id": 103,
+      "generation": 4,
+      "orthogonality": 0.74475,
+      "mother_M": 3000.0,
+      "mother_C": 0.95835
+    },
+    {
+      "tick": 96,
+      "mother_id": 51,
+      "daughter_id": 104,
+      "generation": 4,
+      "orthogonality": 0.60241,
+      "mother_M": 3000.0,
+      "mother_C": 0.96095
+    },
+    {
+      "tick": 96,
+      "mother_id": 23,
+      "daughter_id": 105,
+      "generation": 4,
+      "orthogonality": 0.65255,
+      "mother_M": 3000.0,
+      "mother_C": 0.9573
+    },
+    {
+      "tick": 96,
+      "mother_id": 39,
+      "daughter_id": 106,
+      "generation": 4,
+      "orthogonality": 0.57123,
+      "mother_M": 3000.0,
+      "mother_C": 0.95699
+    },
+    {
+      "tick": 96,
+      "mother_id": 29,
+      "daughter_id": 107,
+      "generation": 4,
+      "orthogonality": 0.67656,
+      "mother_M": 3000.0,
+      "mother_C": 0.95723
+    },
+    {
+      "tick": 96,
+      "mother_id": 42,
+      "daughter_id": 108,
+      "generation": 4,
+      "orthogonality": 0.697,
+      "mother_M": 3000.0,
+      "mother_C": 0.95899
+    },
+    {
+      "tick": 96,
+      "mother_id": 26,
+      "daughter_id": 109,
+      "generation": 4,
+      "orthogonality": 0.43589,
+      "mother_M": 3000.0,
+      "mother_C": 0.9546
+    },
+    {
+      "tick": 96,
+      "mother_id": 14,
+      "daughter_id": 110,
+      "generation": 4,
+      "orthogonality": 0.53578,
+      "mother_M": 3000.0,
+      "mother_C": 0.95257
+    },
+    {
+      "tick": 96,
+      "mother_id": 45,
+      "daughter_id": 111,
+      "generation": 4,
+      "orthogonality": 0.47769,
+      "mother_M": 3000.0,
+      "mother_C": 0.95149
+    },
+    {
+      "tick": 96,
+      "mother_id": 38,
+      "daughter_id": 112,
+      "generation": 4,
+      "orthogonality": 0.55429,
+      "mother_M": 3000.0,
+      "mother_C": 0.95392
+    },
+    {
+      "tick": 96,
+      "mother_id": 43,
+      "daughter_id": 113,
+      "generation": 4,
+      "orthogonality": 0.42862,
+      "mother_M": 3000.0,
+      "mother_C": 0.95165
+    },
+    {
+      "tick": 96,
+      "mother_id": 53,
+      "daughter_id": 114,
+      "generation": 4,
+      "orthogonality": 0.49529,
+      "mother_M": 3000.0,
+      "mother_C": 0.95142
+    },
+    {
+      "tick": 96,
+      "mother_id": 27,
+      "daughter_id": 115,
+      "generation": 4,
+      "orthogonality": 0.54376,
+      "mother_M": 3000.0,
+      "mother_C": 0.95262
+    },
+    {
+      "tick": 96,
+      "mother_id": 31,
+      "daughter_id": 116,
+      "generation": 5,
+      "orthogonality": 0.40756,
+      "mother_M": 3000.0,
+      "mother_C": 0.95014
+    },
+    {
+      "tick": 96,
+      "mother_id": 61,
+      "daughter_id": 117,
+      "generation": 5,
+      "orthogonality": 0.39216,
+      "mother_M": 3000.0,
+      "mother_C": 0.95189
+    },
+    {
+      "tick": 96,
+      "mother_id": 47,
+      "daughter_id": 118,
+      "generation": 5,
+      "orthogonality": 0.3549,
+      "mother_M": 3000.0,
+      "mother_C": 0.95382
+    },
+    {
+      "tick": 96,
+      "mother_id": 58,
+      "daughter_id": 119,
+      "generation": 5,
+      "orthogonality": 0.34464,
+      "mother_M": 3000.0,
+      "mother_C": 0.94744
+    },
+    {
+      "tick": 96,
+      "mother_id": 22,
+      "daughter_id": 120,
+      "generation": 4,
+      "orthogonality": 0.29092,
+      "mother_M": 3000.0,
+      "mother_C": 0.94858
+    },
+    {
+      "tick": 96,
+      "mother_id": 46,
+      "daughter_id": 121,
+      "generation": 5,
+      "orthogonality": 0.17406,
+      "mother_M": 3000.0,
+      "mother_C": 0.95515
+    },
+    {
+      "tick": 112,
+      "mother_id": 1,
+      "daughter_id": 122,
+      "generation": 1,
+      "orthogonality": -0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.99325
+    },
+    {
+      "tick": 112,
+      "mother_id": 17,
+      "daughter_id": 123,
+      "generation": 2,
+      "orthogonality": 0.112,
+      "mother_M": 3000.0,
+      "mother_C": 0.98791
+    },
+    {
+      "tick": 112,
+      "mother_id": 0,
+      "daughter_id": 124,
+      "generation": 1,
+      "orthogonality": 0.07873,
+      "mother_M": 3000.0,
+      "mother_C": 0.97721
+    },
+    {
+      "tick": 112,
+      "mother_id": 4,
+      "daughter_id": 125,
+      "generation": 2,
+      "orthogonality": 0.11527,
+      "mother_M": 3000.0,
+      "mother_C": 0.97592
+    },
+    {
+      "tick": 112,
+      "mother_id": 9,
+      "daughter_id": 126,
+      "generation": 2,
+      "orthogonality": 0.13154,
+      "mother_M": 3000.0,
+      "mother_C": 0.97845
+    },
+    {
+      "tick": 112,
+      "mother_id": 49,
+      "daughter_id": 127,
+      "generation": 3,
+      "orthogonality": 0.16526,
+      "mother_M": 3000.0,
+      "mother_C": 0.97747
+    },
+    {
+      "tick": 112,
+      "mother_id": 33,
+      "daughter_id": 128,
+      "generation": 2,
+      "orthogonality": 0.20079,
+      "mother_M": 3000.0,
+      "mother_C": 0.98383
+    },
+    {
+      "tick": 112,
+      "mother_id": 8,
+      "daughter_id": 129,
+      "generation": 2,
+      "orthogonality": 0.17013,
+      "mother_M": 3000.0,
+      "mother_C": 0.98067
+    },
+    {
+      "tick": 112,
+      "mother_id": 16,
+      "daughter_id": 130,
+      "generation": 2,
+      "orthogonality": 0.23195,
+      "mother_M": 3000.0,
+      "mother_C": 0.97291
+    },
+    {
+      "tick": 112,
+      "mother_id": 32,
+      "daughter_id": 131,
+      "generation": 2,
+      "orthogonality": 0.13818,
+      "mother_M": 3000.0,
+      "mother_C": 0.9787
+    },
+    {
+      "tick": 112,
+      "mother_id": 28,
+      "daughter_id": 132,
+      "generation": 4,
+      "orthogonality": 0.11328,
+      "mother_M": 3000.0,
+      "mother_C": 0.97585
+    },
+    {
+      "tick": 112,
+      "mother_id": 36,
+      "daughter_id": 133,
+      "generation": 3,
+      "orthogonality": 0.25209,
+      "mother_M": 3000.0,
+      "mother_C": 0.97519
+    },
+    {
+      "tick": 112,
+      "mother_id": 12,
+      "daughter_id": 134,
+      "generation": 3,
+      "orthogonality": 0.27245,
+      "mother_M": 3000.0,
+      "mother_C": 0.9748
+    },
+    {
+      "tick": 112,
+      "mother_id": 40,
+      "daughter_id": 135,
+      "generation": 3,
+      "orthogonality": 0.43555,
+      "mother_M": 3000.0,
+      "mother_C": 0.97082
+    },
+    {
+      "tick": 112,
+      "mother_id": 20,
+      "daughter_id": 136,
+      "generation": 3,
+      "orthogonality": 0.34272,
+      "mother_M": 3000.0,
+      "mother_C": 0.97085
+    },
+    {
+      "tick": 112,
+      "mother_id": 2,
+      "daughter_id": 137,
+      "generation": 2,
+      "orthogonality": 0.23585,
+      "mother_M": 3000.0,
+      "mother_C": 0.97476
+    },
+    {
+      "tick": 112,
+      "mother_id": 3,
+      "daughter_id": 138,
+      "generation": 2,
+      "orthogonality": 0.20697,
+      "mother_M": 3000.0,
+      "mother_C": 0.97136
+    },
+    {
+      "tick": 112,
+      "mother_id": 24,
+      "daughter_id": 139,
+      "generation": 3,
+      "orthogonality": 0.40892,
+      "mother_M": 3000.0,
+      "mother_C": 0.96637
+    },
+    {
+      "tick": 112,
+      "mother_id": 25,
+      "daughter_id": 140,
+      "generation": 3,
+      "orthogonality": 0.49935,
+      "mother_M": 3000.0,
+      "mother_C": 0.97088
+    },
+    {
+      "tick": 112,
+      "mother_id": 5,
+      "daughter_id": 141,
+      "generation": 2,
+      "orthogonality": 0.51711,
+      "mother_M": 3000.0,
+      "mother_C": 0.96823
+    },
+    {
+      "tick": 112,
+      "mother_id": 41,
+      "daughter_id": 142,
+      "generation": 3,
+      "orthogonality": 0.60927,
+      "mother_M": 3000.0,
+      "mother_C": 0.96495
+    },
+    {
+      "tick": 112,
+      "mother_id": 48,
+      "daughter_id": 143,
+      "generation": 3,
+      "orthogonality": 0.69966,
+      "mother_M": 3000.0,
+      "mother_C": 0.96643
+    },
+    {
+      "tick": 112,
+      "mother_id": 7,
+      "daughter_id": 144,
+      "generation": 3,
+      "orthogonality": 0.71572,
+      "mother_M": 3000.0,
+      "mother_C": 0.96338
+    },
+    {
+      "tick": 112,
+      "mother_id": 60,
+      "daughter_id": 145,
+      "generation": 5,
+      "orthogonality": 0.76203,
+      "mother_M": 3000.0,
+      "mother_C": 0.96344
+    },
+    {
+      "tick": 112,
+      "mother_id": 44,
+      "daughter_id": 146,
+      "generation": 4,
+      "orthogonality": 0.74944,
+      "mother_M": 3000.0,
+      "mother_C": 0.96063
+    },
+    {
+      "tick": 112,
+      "mother_id": 10,
+      "daughter_id": 147,
+      "generation": 3,
+      "orthogonality": 0.71095,
+      "mother_M": 3000.0,
+      "mother_C": 0.96653
+    },
+    {
+      "tick": 112,
+      "mother_id": 19,
+      "daughter_id": 148,
+      "generation": 3,
+      "orthogonality": 0.77513,
+      "mother_M": 3000.0,
+      "mother_C": 0.96407
+    },
+    {
+      "tick": 112,
+      "mother_id": 6,
+      "daughter_id": 149,
+      "generation": 3,
+      "orthogonality": 0.64623,
+      "mother_M": 3000.0,
+      "mother_C": 0.95984
+    },
+    {
+      "tick": 112,
+      "mother_id": 18,
+      "daughter_id": 150,
+      "generation": 3,
+      "orthogonality": 0.59396,
+      "mother_M": 3000.0,
+      "mother_C": 0.96456
+    },
+    {
+      "tick": 112,
+      "mother_id": 56,
+      "daughter_id": 151,
+      "generation": 4,
+      "orthogonality": 0.5893,
+      "mother_M": 3000.0,
+      "mother_C": 0.96094
+    },
+    {
+      "tick": 112,
+      "mother_id": 37,
+      "daughter_id": 152,
+      "generation": 3,
+      "orthogonality": 0.66944,
+      "mother_M": 3000.0,
+      "mother_C": 0.95614
+    },
+    {
+      "tick": 112,
+      "mother_id": 57,
+      "daughter_id": 153,
+      "generation": 4,
+      "orthogonality": 0.83843,
+      "mother_M": 3000.0,
+      "mother_C": 0.96251
+    },
+    {
+      "tick": 112,
+      "mother_id": 34,
+      "daughter_id": 154,
+      "generation": 3,
+      "orthogonality": 0.96257,
+      "mother_M": 3000.0,
+      "mother_C": 0.96211
+    },
+    {
+      "tick": 112,
+      "mother_id": 15,
+      "daughter_id": 155,
+      "generation": 4,
+      "orthogonality": 0.89863,
+      "mother_M": 3000.0,
+      "mother_C": 0.96501
+    },
+    {
+      "tick": 112,
+      "mother_id": 35,
+      "daughter_id": 156,
+      "generation": 3,
+      "orthogonality": 0.93672,
+      "mother_M": 3000.0,
+      "mother_C": 0.96509
+    },
+    {
+      "tick": 112,
+      "mother_id": 13,
+      "daughter_id": 157,
+      "generation": 3,
+      "orthogonality": 0.86467,
+      "mother_M": 3000.0,
+      "mother_C": 0.96582
+    },
+    {
+      "tick": 112,
+      "mother_id": 11,
+      "daughter_id": 158,
+      "generation": 3,
+      "orthogonality": 0.94523,
+      "mother_M": 3000.0,
+      "mother_C": 0.95872
+    },
+    {
+      "tick": 112,
+      "mother_id": 21,
+      "daughter_id": 159,
+      "generation": 3,
+      "orthogonality": 0.87599,
+      "mother_M": 3000.0,
+      "mother_C": 0.95772
+    },
+    {
+      "tick": 112,
+      "mother_id": 52,
+      "daughter_id": 160,
+      "generation": 4,
+      "orthogonality": 0.78504,
+      "mother_M": 3000.0,
+      "mother_C": 0.96033
+    },
+    {
+      "tick": 112,
+      "mother_id": 50,
+      "daughter_id": 161,
+      "generation": 4,
+      "orthogonality": 0.84399,
+      "mother_M": 3000.0,
+      "mother_C": 0.95918
+    },
+    {
+      "tick": 112,
+      "mother_id": 51,
+      "daughter_id": 162,
+      "generation": 4,
+      "orthogonality": 0.66543,
+      "mother_M": 3000.0,
+      "mother_C": 0.95713
+    },
+    {
+      "tick": 112,
+      "mother_id": 23,
+      "daughter_id": 163,
+      "generation": 4,
+      "orthogonality": 0.56876,
+      "mother_M": 3000.0,
+      "mother_C": 0.96148
+    },
+    {
+      "tick": 112,
+      "mother_id": 39,
+      "daughter_id": 164,
+      "generation": 4,
+      "orthogonality": 0.56799,
+      "mother_M": 3000.0,
+      "mother_C": 0.95753
+    },
+    {
+      "tick": 112,
+      "mother_id": 29,
+      "daughter_id": 165,
+      "generation": 4,
+      "orthogonality": 0.67464,
+      "mother_M": 3000.0,
+      "mother_C": 0.95581
+    },
+    {
+      "tick": 112,
+      "mother_id": 42,
+      "daughter_id": 166,
+      "generation": 4,
+      "orthogonality": 0.70848,
+      "mother_M": 3000.0,
+      "mother_C": 0.95374
+    },
+    {
+      "tick": 112,
+      "mother_id": 26,
+      "daughter_id": 167,
+      "generation": 4,
+      "orthogonality": 0.72174,
+      "mother_M": 3000.0,
+      "mother_C": 0.95936
+    },
+    {
+      "tick": 112,
+      "mother_id": 14,
+      "daughter_id": 168,
+      "generation": 4,
+      "orthogonality": 0.69872,
+      "mother_M": 3000.0,
+      "mother_C": 0.95333
+    },
+    {
+      "tick": 112,
+      "mother_id": 45,
+      "daughter_id": 169,
+      "generation": 4,
+      "orthogonality": 0.64138,
+      "mother_M": 3000.0,
+      "mother_C": 0.94794
+    },
+    {
+      "tick": 112,
+      "mother_id": 38,
+      "daughter_id": 170,
+      "generation": 4,
+      "orthogonality": 0.65443,
+      "mother_M": 3000.0,
+      "mother_C": 0.95496
+    },
+    {
+      "tick": 112,
+      "mother_id": 43,
+      "daughter_id": 171,
+      "generation": 4,
+      "orthogonality": 0.53588,
+      "mother_M": 3000.0,
+      "mother_C": 0.95371
+    },
+    {
+      "tick": 112,
+      "mother_id": 53,
+      "daughter_id": 172,
+      "generation": 4,
+      "orthogonality": 0.33826,
+      "mother_M": 3000.0,
+      "mother_C": 0.95075
+    },
+    {
+      "tick": 112,
+      "mother_id": 27,
+      "daughter_id": 173,
+      "generation": 4,
+      "orthogonality": 0.50807,
+      "mother_M": 3000.0,
+      "mother_C": 0.9499
+    },
+    {
+      "tick": 112,
+      "mother_id": 31,
+      "daughter_id": 174,
+      "generation": 5,
+      "orthogonality": 0.54878,
+      "mother_M": 3000.0,
+      "mother_C": 0.94771
+    },
+    {
+      "tick": 112,
+      "mother_id": 61,
+      "daughter_id": 175,
+      "generation": 5,
+      "orthogonality": 0.57514,
+      "mother_M": 3000.0,
+      "mother_C": 0.95304
+    },
+    {
+      "tick": 112,
+      "mother_id": 47,
+      "daughter_id": 176,
+      "generation": 5,
+      "orthogonality": 0.41737,
+      "mother_M": 3000.0,
+      "mother_C": 0.95816
+    },
+    {
+      "tick": 112,
+      "mother_id": 58,
+      "daughter_id": 177,
+      "generation": 5,
+      "orthogonality": 0.50432,
+      "mother_M": 3000.0,
+      "mother_C": 0.9526
+    },
+    {
+      "tick": 112,
+      "mother_id": 22,
+      "daughter_id": 178,
+      "generation": 4,
+      "orthogonality": 0.4765,
+      "mother_M": 3000.0,
+      "mother_C": 0.95175
+    },
+    {
+      "tick": 112,
+      "mother_id": 46,
+      "daughter_id": 179,
+      "generation": 5,
+      "orthogonality": 0.52069,
+      "mother_M": 3000.0,
+      "mother_C": 0.96037
+    },
+    {
+      "tick": 112,
+      "mother_id": 64,
+      "daughter_id": 180,
+      "generation": 2,
+      "orthogonality": 0.64858,
+      "mother_M": 3000.0,
+      "mother_C": 0.9812
+    },
+    {
+      "tick": 112,
+      "mother_id": 65,
+      "daughter_id": 181,
+      "generation": 3,
+      "orthogonality": 0.66458,
+      "mother_M": 3000.0,
+      "mother_C": 0.97835
+    },
+    {
+      "tick": 112,
+      "mother_id": 66,
+      "daughter_id": 182,
+      "generation": 2,
+      "orthogonality": 0.51186,
+      "mother_M": 3000.0,
+      "mother_C": 0.97019
+    },
+    {
+      "tick": 112,
+      "mother_id": 67,
+      "daughter_id": 183,
+      "generation": 3,
+      "orthogonality": 0.47763,
+      "mother_M": 3000.0,
+      "mother_C": 0.96672
+    },
+    {
+      "tick": 112,
+      "mother_id": 68,
+      "daughter_id": 184,
+      "generation": 3,
+      "orthogonality": 0.6521,
+      "mother_M": 3000.0,
+      "mother_C": 0.97444
+    },
+    {
+      "tick": 112,
+      "mother_id": 69,
+      "daughter_id": 185,
+      "generation": 4,
+      "orthogonality": 0.6372,
+      "mother_M": 3000.0,
+      "mother_C": 0.97167
+    },
+    {
+      "tick": 112,
+      "mother_id": 70,
+      "daughter_id": 186,
+      "generation": 3,
+      "orthogonality": 0.54268,
+      "mother_M": 3000.0,
+      "mother_C": 0.97457
+    },
+    {
+      "tick": 112,
+      "mother_id": 71,
+      "daughter_id": 187,
+      "generation": 3,
+      "orthogonality": 0.59195,
+      "mother_M": 3000.0,
+      "mother_C": 0.96992
+    },
+    {
+      "tick": 112,
+      "mother_id": 72,
+      "daughter_id": 188,
+      "generation": 3,
+      "orthogonality": 0.74241,
+      "mother_M": 3000.0,
+      "mother_C": 0.95986
+    },
+    {
+      "tick": 112,
+      "mother_id": 73,
+      "daughter_id": 189,
+      "generation": 3,
+      "orthogonality": 0.72777,
+      "mother_M": 3000.0,
+      "mother_C": 0.96737
+    },
+    {
+      "tick": 112,
+      "mother_id": 74,
+      "daughter_id": 190,
+      "generation": 5,
+      "orthogonality": 0.55924,
+      "mother_M": 3000.0,
+      "mother_C": 0.96798
+    },
+    {
+      "tick": 112,
+      "mother_id": 75,
+      "daughter_id": 191,
+      "generation": 4,
+      "orthogonality": 0.49593,
+      "mother_M": 3000.0,
+      "mother_C": 0.96113
+    },
+    {
+      "tick": 112,
+      "mother_id": 76,
+      "daughter_id": 192,
+      "generation": 4,
+      "orthogonality": 0.56028,
+      "mother_M": 3000.0,
+      "mother_C": 0.96786
+    },
+    {
+      "tick": 112,
+      "mother_id": 77,
+      "daughter_id": 193,
+      "generation": 4,
+      "orthogonality": 0.66012,
+      "mother_M": 3000.0,
+      "mother_C": 0.96581
+    },
+    {
+      "tick": 112,
+      "mother_id": 78,
+      "daughter_id": 194,
+      "generation": 4,
+      "orthogonality": 0.63801,
+      "mother_M": 3000.0,
+      "mother_C": 0.96718
+    },
+    {
+      "tick": 112,
+      "mother_id": 79,
+      "daughter_id": 195,
+      "generation": 3,
+      "orthogonality": 0.66851,
+      "mother_M": 3000.0,
+      "mother_C": 0.96655
+    },
+    {
+      "tick": 112,
+      "mother_id": 80,
+      "daughter_id": 196,
+      "generation": 3,
+      "orthogonality": 0.71885,
+      "mother_M": 3000.0,
+      "mother_C": 0.9635
+    },
+    {
+      "tick": 112,
+      "mother_id": 81,
+      "daughter_id": 197,
+      "generation": 4,
+      "orthogonality": 0.70972,
+      "mother_M": 3000.0,
+      "mother_C": 0.96343
+    },
+    {
+      "tick": 112,
+      "mother_id": 82,
+      "daughter_id": 198,
+      "generation": 4,
+      "orthogonality": 0.69631,
+      "mother_M": 3000.0,
+      "mother_C": 0.95891
+    },
+    {
+      "tick": 112,
+      "mother_id": 83,
+      "daughter_id": 199,
+      "generation": 3,
+      "orthogonality": 0.71511,
+      "mother_M": 3000.0,
+      "mother_C": 0.96335
+    },
+    {
+      "tick": 112,
+      "mother_id": 84,
+      "daughter_id": 200,
+      "generation": 4,
+      "orthogonality": 0.8222,
+      "mother_M": 3000.0,
+      "mother_C": 0.96115
+    },
+    {
+      "tick": 112,
+      "mother_id": 85,
+      "daughter_id": 201,
+      "generation": 4,
+      "orthogonality": 0.82417,
+      "mother_M": 3000.0,
+      "mother_C": 0.95821
+    },
+    {
+      "tick": 112,
+      "mother_id": 86,
+      "daughter_id": 202,
+      "generation": 4,
+      "orthogonality": 0.57853,
+      "mother_M": 3000.0,
+      "mother_C": 0.95465
+    },
+    {
+      "tick": 112,
+      "mother_id": 87,
+      "daughter_id": 203,
+      "generation": 6,
+      "orthogonality": 0.50226,
+      "mother_M": 3000.0,
+      "mother_C": 0.95449
+    },
+    {
+      "tick": 112,
+      "mother_id": 88,
+      "daughter_id": 204,
+      "generation": 5,
+      "orthogonality": 0.38143,
+      "mother_M": 3000.0,
+      "mother_C": 0.96402
+    },
+    {
+      "tick": 112,
+      "mother_id": 89,
+      "daughter_id": 205,
+      "generation": 4,
+      "orthogonality": 0.46456,
+      "mother_M": 3000.0,
+      "mother_C": 0.9616
+    },
+    {
+      "tick": 112,
+      "mother_id": 90,
+      "daughter_id": 206,
+      "generation": 4,
+      "orthogonality": 0.55648,
+      "mother_M": 3000.0,
+      "mother_C": 0.95241
+    },
+    {
+      "tick": 112,
+      "mother_id": 91,
+      "daughter_id": 207,
+      "generation": 4,
+      "orthogonality": 0.67662,
+      "mother_M": 3000.0,
+      "mother_C": 0.95717
+    },
+    {
+      "tick": 112,
+      "mother_id": 92,
+      "daughter_id": 208,
+      "generation": 4,
+      "orthogonality": 0.84475,
+      "mother_M": 3000.0,
+      "mother_C": 0.96485
+    },
+    {
+      "tick": 112,
+      "mother_id": 93,
+      "daughter_id": 209,
+      "generation": 5,
+      "orthogonality": 0.72265,
+      "mother_M": 3000.0,
+      "mother_C": 0.94846
+    },
+    {
+      "tick": 112,
+      "mother_id": 94,
+      "daughter_id": 210,
+      "generation": 4,
+      "orthogonality": 0.68087,
+      "mother_M": 3000.0,
+      "mother_C": 0.94838
+    },
+    {
+      "tick": 112,
+      "mother_id": 95,
+      "daughter_id": 211,
+      "generation": 5,
+      "orthogonality": 0.55238,
+      "mother_M": 3000.0,
+      "mother_C": 0.95141
+    },
+    {
+      "tick": 112,
+      "mother_id": 96,
+      "daughter_id": 212,
+      "generation": 4,
+      "orthogonality": 0.69172,
+      "mother_M": 3000.0,
+      "mother_C": 0.96383
+    },
+    {
+      "tick": 112,
+      "mother_id": 97,
+      "daughter_id": 213,
+      "generation": 5,
+      "orthogonality": 0.90635,
+      "mother_M": 3000.0,
+      "mother_C": 0.95397
+    },
+    {
+      "tick": 112,
+      "mother_id": 98,
+      "daughter_id": 214,
+      "generation": 4,
+      "orthogonality": 0.8882,
+      "mother_M": 3000.0,
+      "mother_C": 0.95494
+    },
+    {
+      "tick": 112,
+      "mother_id": 99,
+      "daughter_id": 215,
+      "generation": 4,
+      "orthogonality": 0.95176,
+      "mother_M": 3000.0,
+      "mother_C": 0.95842
+    },
+    {
+      "tick": 112,
+      "mother_id": 100,
+      "daughter_id": 216,
+      "generation": 4,
+      "orthogonality": 0.89336,
+      "mother_M": 3000.0,
+      "mother_C": 0.94769
+    },
+    {
+      "tick": 112,
+      "mother_id": 101,
+      "daughter_id": 217,
+      "generation": 4,
+      "orthogonality": 0.85932,
+      "mother_M": 3000.0,
+      "mother_C": 0.94812
+    },
+    {
+      "tick": 112,
+      "mother_id": 102,
+      "daughter_id": 218,
+      "generation": 5,
+      "orthogonality": 0.67951,
+      "mother_M": 3000.0,
+      "mother_C": 0.95296
+    },
+    {
+      "tick": 112,
+      "mother_id": 103,
+      "daughter_id": 219,
+      "generation": 5,
+      "orthogonality": 0.69993,
+      "mother_M": 3000.0,
+      "mother_C": 0.94868
+    },
+    {
+      "tick": 112,
+      "mother_id": 104,
+      "daughter_id": 220,
+      "generation": 5,
+      "orthogonality": 0.56491,
+      "mother_M": 3000.0,
+      "mother_C": 0.95428
+    },
+    {
+      "tick": 112,
+      "mother_id": 105,
+      "daughter_id": 221,
+      "generation": 5,
+      "orthogonality": 0.65938,
+      "mother_M": 3000.0,
+      "mother_C": 0.95282
+    },
+    {
+      "tick": 112,
+      "mother_id": 106,
+      "daughter_id": 222,
+      "generation": 5,
+      "orthogonality": 0.6866,
+      "mother_M": 3000.0,
+      "mother_C": 0.95198
+    },
+    {
+      "tick": 112,
+      "mother_id": 107,
+      "daughter_id": 223,
+      "generation": 5,
+      "orthogonality": 0.75461,
+      "mother_M": 3000.0,
+      "mother_C": 0.94608
+    },
+    {
+      "tick": 112,
+      "mother_id": 108,
+      "daughter_id": 224,
+      "generation": 5,
+      "orthogonality": 0.74524,
+      "mother_M": 3000.0,
+      "mother_C": 0.94901
+    },
+    {
+      "tick": 112,
+      "mother_id": 109,
+      "daughter_id": 225,
+      "generation": 5,
+      "orthogonality": 0.76424,
+      "mother_M": 3000.0,
+      "mother_C": 0.94698
+    },
+    {
+      "tick": 112,
+      "mother_id": 110,
+      "daughter_id": 226,
+      "generation": 5,
+      "orthogonality": 0.78997,
+      "mother_M": 3000.0,
+      "mother_C": 0.94431
+    },
+    {
+      "tick": 112,
+      "mother_id": 111,
+      "daughter_id": 227,
+      "generation": 5,
+      "orthogonality": 0.77938,
+      "mother_M": 3000.0,
+      "mother_C": 0.94658
+    },
+    {
+      "tick": 112,
+      "mother_id": 112,
+      "daughter_id": 228,
+      "generation": 5,
+      "orthogonality": 0.77681,
+      "mother_M": 3000.0,
+      "mother_C": 0.94695
+    },
+    {
+      "tick": 112,
+      "mother_id": 113,
+      "daughter_id": 229,
+      "generation": 5,
+      "orthogonality": 0.76993,
+      "mother_M": 3000.0,
+      "mother_C": 0.95171
+    },
+    {
+      "tick": 112,
+      "mother_id": 114,
+      "daughter_id": 230,
+      "generation": 5,
+      "orthogonality": 0.67368,
+      "mother_M": 3000.0,
+      "mother_C": 0.94293
+    },
+    {
+      "tick": 112,
+      "mother_id": 115,
+      "daughter_id": 231,
+      "generation": 5,
+      "orthogonality": 0.63053,
+      "mother_M": 3000.0,
+      "mother_C": 0.94527
+    },
+    {
+      "tick": 112,
+      "mother_id": 116,
+      "daughter_id": 232,
+      "generation": 6,
+      "orthogonality": 0.49873,
+      "mother_M": 3000.0,
+      "mother_C": 0.94369
+    },
+    {
+      "tick": 112,
+      "mother_id": 117,
+      "daughter_id": 233,
+      "generation": 6,
+      "orthogonality": 0.6751,
+      "mother_M": 3000.0,
+      "mother_C": 0.94485
+    },
+    {
+      "tick": 112,
+      "mother_id": 118,
+      "daughter_id": 234,
+      "generation": 6,
+      "orthogonality": 0.59995,
+      "mother_M": 3000.0,
+      "mother_C": 0.94293
+    },
+    {
+      "tick": 112,
+      "mother_id": 119,
+      "daughter_id": 235,
+      "generation": 6,
+      "orthogonality": 0.34236,
+      "mother_M": 3000.0,
+      "mother_C": 0.94223
+    },
+    {
+      "tick": 112,
+      "mother_id": 120,
+      "daughter_id": 236,
+      "generation": 5,
+      "orthogonality": 0.47169,
+      "mother_M": 3000.0,
+      "mother_C": 0.94024
+    },
+    {
+      "tick": 112,
+      "mother_id": 121,
+      "daughter_id": 237,
+      "generation": 6,
+      "orthogonality": 0.50704,
+      "mother_M": 3000.0,
+      "mother_C": 0.95002
+    },
+    {
+      "tick": 128,
+      "mother_id": 1,
+      "daughter_id": 238,
+      "generation": 1,
+      "orthogonality": -0.0,
+      "mother_M": 3000.0,
+      "mother_C": 0.99525
+    },
+    {
+      "tick": 128,
+      "mother_id": 17,
+      "daughter_id": 239,
+      "generation": 2,
+      "orthogonality": 0.09343,
+      "mother_M": 3000.0,
+      "mother_C": 0.98919
+    },
+    {
+      "tick": 128,
+      "mother_id": 122,
+      "daughter_id": 240,
+      "generation": 2,
+      "orthogonality": 0.02454,
+      "mother_M": 3000.0,
+      "mother_C": 0.97772
+    },
+    {
+      "tick": 128,
+      "mother_id": 64,
+      "daughter_id": 241,
+      "generation": 2,
+      "orthogonality": 0.09544,
+      "mother_M": 3000.0,
+      "mother_C": 0.98888
+    },
+    {
+      "tick": 128,
+      "mother_id": 33,
+      "daughter_id": 242,
+      "generation": 2,
+      "orthogonality": 0.25253,
+      "mother_M": 3000.0,
+      "mother_C": 0.9846
+    },
+    {
+      "tick": 128,
+      "mother_id": 123,
+      "daughter_id": 243,
+      "generation": 3,
+      "orthogonality": 0.33083,
+      "mother_M": 3000.0,
+      "mother_C": 0.9794
+    },
+    {
+      "tick": 128,
+      "mother_id": 8,
+      "daughter_id": 244,
+      "generation": 2,
+      "orthogonality": 0.28218,
+      "mother_M": 3000.0,
+      "mother_C": 0.98091
+    },
+    {
+      "tick": 128,
+      "mother_id": 49,
+      "daughter_id": 245,
+      "generation": 3,
+      "orthogonality": 0.46817,
+      "mother_M": 3000.0,
+      "mother_C": 0.98407
+    },
+    {
+      "tick": 128,
+      "mother_id": 9,
+      "daughter_id": 246,
+      "generation": 2,
+      "orthogonality": 0.71755,
+      "mother_M": 3000.0,
+      "mother_C": 0.97302
+    },
+    {
+      "tick": 128,
+      "mother_id": 32,
+      "daughter_id": 247,
+      "generation": 2,
+      "orthogonality": 0.59861,
+      "mother_M": 3000.0,
+      "mother_C": 0.97587
+    },
+    {
+      "tick": 128,
+      "mother_id": 0,
+      "daughter_id": 248,
+      "generation": 1,
+      "orthogonality": 0.6886,
+      "mother_M": 3000.0,
+      "mother_C": 0.97604
+    },
+    {
+      "tick": 128,
+      "mother_id": 65,
+      "daughter_id": 249,
+      "generation": 3,
+      "orthogonality": 0.70401,
+      "mother_M": 3000.0,
+      "mother_C": 0.97694
+    },
+    {
+      "tick": 128,
+      "mother_id": 4,
+      "daughter_id": 250,
+      "generation": 2,
+      "orthogonality": 0.80525,
+      "mother_M": 3000.0,
+      "mother_C": 0.97766
+    },
+    {
+      "tick": 128,
+      "mother_id": 2,
+      "daughter_id": 251,
+      "generation": 2,
+      "orthogonality": 0.81336,
+      "mother_M": 3000.0,
+      "mother_C": 0.97659
+    },
+    {
+      "tick": 128,
+      "mother_id": 36,
+      "daughter_id": 252,
+      "generation": 3,
+      "orthogonality": 0.74619,
+      "mother_M": 3000.0,
+      "mother_C": 0.97517
+    },
+    {
+      "tick": 128,
+      "mother_id": 128,
+      "daughter_id": 253,
+      "generation": 3,
+      "orthogonality": 0.78291,
+      "mother_M": 3000.0,
+      "mother_C": 0.97527
+    },
+    {
+      "tick": 128,
+      "mother_id": 68,
+      "daughter_id": 254,
+      "generation": 3,
+      "orthogonality": 0.75672,
+      "mother_M": 3000.0,
+      "mother_C": 0.97468
+    },
+    {
+      "tick": 128,
+      "mother_id": 16,
+      "daughter_id": 255,
+      "generation": 2,
+      "orthogonality": 0.71689,
+      "mother_M": 3000.0,
+      "mother_C": 0.975
+    },
+    {
+      "tick": 128,
+      "mother_id": 70,
+      "daughter_id": 256,
+      "generation": 3,
+      "orthogonality": 0.57591,
+      "mother_M": 3000.0,
+      "mother_C": 0.97707
+    },
+    {
+      "tick": 128,
+      "mother_id": 180,
+      "daughter_id": 257,
+      "generation": 3,
+      "orthogonality": 0.68036,
+      "mother_M": 3000.0,
+      "mother_C": 0.97724
+    },
+    {
+      "tick": 128,
+      "mother_id": 20,
+      "daughter_id": 258,
+      "generation": 3,
+      "orthogonality": 0.78021,
+      "mother_M": 3000.0,
+      "mother_C": 0.96925
+    },
+    {
+      "tick": 128,
+      "mother_id": 28,
+      "daughter_id": 259,
+      "generation": 4,
+      "orthogonality": 0.74519,
+      "mother_M": 3000.0,
+      "mother_C": 0.9719
+    },
+    {
+      "tick": 128,
+      "mother_id": 12,
+      "daughter_id": 260,
+      "generation": 3,
+      "orthogonality": 0.81906,
+      "mother_M": 3000.0,
+      "mother_C": 0.97352
+    },
+    {
+      "tick": 128,
+      "mother_id": 129,
+      "daughter_id": 261,
+      "generation": 3,
+      "orthogonality": 0.59729,
+      "mother_M": 3000.0,
+      "mother_C": 0.97069
+    },
+    {
+      "tick": 128,
+      "mother_id": 40,
+      "daughter_id": 262,
+      "generation": 3,
+      "orthogonality": 0.60534,
+      "mother_M": 3000.0,
+      "mother_C": 0.97127
+    },
+    {
+      "tick": 128,
+      "mother_id": 25,
+      "daughter_id": 263,
+      "generation": 3,
+      "orthogonality": 0.49637,
+      "mother_M": 3000.0,
+      "mother_C": 0.97766
+    },
+    {
+      "tick": 128,
+      "mother_id": 181,
+      "daughter_id": 264,
+      "generation": 4,
+      "orthogonality": 0.45358,
+      "mother_M": 3000.0,
+      "mother_C": 0.97287
+    },
+    {
+      "tick": 128,
+      "mother_id": 69,
+      "daughter_id": 265,
+      "generation": 4,
+      "orthogonality": 0.39156,
+      "mother_M": 3000.0,
+      "mother_C": 0.9707
+    },
+    {
+      "tick": 128,
+      "mother_id": 126,
+      "daughter_id": 266,
+      "generation": 3,
+      "orthogonality": 0.60725,
+      "mother_M": 3000.0,
+      "mother_C": 0.97275
+    },
+    {
+      "tick": 128,
+      "mother_id": 3,
+      "daughter_id": 267,
+      "generation": 2,
+      "orthogonality": 0.56381,
+      "mother_M": 3000.0,
+      "mother_C": 0.96869
+    },
+    {
+      "tick": 128,
+      "mother_id": 74,
+      "daughter_id": 268,
+      "generation": 5,
+      "orthogonality": 0.71324,
+      "mother_M": 3000.0,
+      "mother_C": 0.97361
+    },
+    {
+      "tick": 128,
+      "mother_id": 124,
+      "daughter_id": 269,
+      "generation": 2,
+      "orthogonality": 0.78226,
+      "mother_M": 3000.0,
+      "mother_C": 0.97354
+    },
+    {
+      "tick": 128,
+      "mother_id": 131,
+      "daughter_id": 270,
+      "generation": 3,
+      "orthogonality": 0.7134,
+      "mother_M": 3000.0,
+      "mother_C": 0.96638
+    },
+    {
+      "tick": 128,
+      "mother_id": 76,
+      "daughter_id": 271,
+      "generation": 4,
+      "orthogonality": 0.69739,
+      "mother_M": 3000.0,
+      "mother_C": 0.96526
+    },
+    {
+      "tick": 128,
+      "mother_id": 71,
+      "daughter_id": 272,
+      "generation": 3,
+      "orthogonality": 0.80068,
+      "mother_M": 3000.0,
+      "mother_C": 0.96773
+    },
+    {
+      "tick": 128,
+      "mother_id": 66,
+      "daughter_id": 273,
+      "generation": 2,
+      "orthogonality": 0.76268,
+      "mother_M": 3000.0,
+      "mother_C": 0.96772
+    },
+    {
+      "tick": 128,
+      "mother_id": 10,
+      "daughter_id": 274,
+      "generation": 3,
+      "orthogonality": 0.85706,
+      "mother_M": 3000.0,
+      "mother_C": 0.96612
+    },
+    {
+      "tick": 128,
+      "mother_id": 127,
+      "daughter_id": 275,
+      "generation": 4,
+      "orthogonality": 0.83929,
+      "mother_M": 3000.0,
+      "mother_C": 0.97303
+    },
+    {
+      "tick": 128,
+      "mother_id": 132,
+      "daughter_id": 276,
+      "generation": 5,
+      "orthogonality": 0.66842,
+      "mother_M": 3000.0,
+      "mother_C": 0.96786
+    },
+    {
+      "tick": 128,
+      "mother_id": 133,
+      "daughter_id": 277,
+      "generation": 4,
+      "orthogonality": 0.75649,
+      "mother_M": 3000.0,
+      "mother_C": 0.97
+    },
+    {
+      "tick": 128,
+      "mother_id": 5,
+      "daughter_id": 278,
+      "generation": 2,
+      "orthogonality": 0.72503,
+      "mother_M": 3000.0,
+      "mother_C": 0.96612
+    },
+    {
+      "tick": 128,
+      "mother_id": 137,
+      "daughter_id": 279,
+      "generation": 3,
+      "orthogonality": 0.71259,
+      "mother_M": 3000.0,
+      "mother_C": 0.96795
+    },
+    {
+      "tick": 128,
+      "mother_id": 134,
+      "daughter_id": 280,
+      "generation": 4,
+      "orthogonality": 0.64845,
+      "mother_M": 3000.0,
+      "mother_C": 0.97264
+    },
+    {
+      "tick": 128,
+      "mother_id": 67,
+      "daughter_id": 281,
+      "generation": 3,
+      "orthogonality": 0.64898,
+      "mother_M": 3000.0,
+      "mother_C": 0.96994
+    },
+    {
+      "tick": 128,
+      "mother_id": 73,
+      "daughter_id": 282,
+      "generation": 3,
+      "orthogonality": 0.68736,
+      "mother_M": 3000.0,
+      "mother_C": 0.96741
+    },
+    {
+      "tick": 128,
+      "mother_id": 186,
+      "daughter_id": 283,
+      "generation": 4,
+      "orthogonality": 0.73544,
+      "mother_M": 3000.0,
+      "mother_C": 0.96623
+    },
+    {
+      "tick": 128,
+      "mother_id": 79,
+      "daughter_id": 284,
+      "generation": 3,
+      "orthogonality": 0.58455,
+      "mother_M": 3000.0,
+      "mother_C": 0.96977
+    },
+    {
+      "tick": 128,
+      "mother_id": 125,
+      "daughter_id": 285,
+      "generation": 3,
+      "orthogonality": 0.43955,
+      "mother_M": 3000.0,
+      "mother_C": 0.96871
+    },
+    {
+      "tick": 128,
+      "mother_id": 41,
+      "daughter_id": 286,
+      "generation": 3,
+      "orthogonality": 0.50144,
+      "mother_M": 3000.0,
+      "mother_C": 0.96658
+    },
+    {
+      "tick": 128,
+      "mother_id": 35,
+      "daughter_id": 287,
+      "generation": 3,
+      "orthogonality": 0.6283,
+      "mother_M": 3000.0,
+      "mother_C": 0.96541
+    },
+    {
+      "tick": 128,
+      "mother_id": 13,
+      "daughter_id": 288,
+      "generation": 3,
+      "orthogonality": 0.62897,
+      "mother_M": 3000.0,
+      "mother_C": 0.96546
+    },
+    {
+      "tick": 128,
+      "mother_id": 48,
+      "daughter_id": 289,
+      "generation": 3,
+      "orthogonality": 0.62439,
+      "mother_M": 3000.0,
+      "mother_C": 0.96315
+    },
+    {
+      "tick": 128,
+      "mother_id": 96,
+      "daughter_id": 290,
+      "generation": 4,
+      "orthogonality": 0.55628,
+      "mother_M": 3000.0,
+      "mother_C": 0.96787
+    },
+    {
+      "tick": 128,
+      "mother_id": 15,
+      "daughter_id": 291,
+      "generation": 4,
+      "orthogonality": 0.5356,
+      "mother_M": 3000.0,
+      "mother_C": 0.96344
+    },
+    {
+      "tick": 128,
+      "mother_id": 78,
+      "daughter_id": 292,
+      "generation": 4,
+      "orthogonality": 0.60979,
+      "mother_M": 3000.0,
+      "mother_C": 0.96664
+    },
+    {
+      "tick": 128,
+      "mother_id": 7,
+      "daughter_id": 293,
+      "generation": 3,
+      "orthogonality": 0.8504,
+      "mother_M": 3000.0,
+      "mother_C": 0.96652
+    },
+    {
+      "tick": 128,
+      "mother_id": 184,
+      "daughter_id": 294,
+      "generation": 4,
+      "orthogonality": 0.86036,
+      "mother_M": 3000.0,
+      "mother_C": 0.96498
+    },
+    {
+      "tick": 128,
+      "mother_id": 77,
+      "daughter_id": 295,
+      "generation": 4,
+      "orthogonality": 0.73111,
+      "mother_M": 3000.0,
+      "mother_C": 0.96977
+    },
+    {
+      "tick": 128,
+      "mother_id": 24,
+      "daughter_id": 296,
+      "generation": 3,
+      "orthogonality": 0.92015,
+      "mother_M": 3000.0,
+      "mother_C": 0.96509
+    },
+    {
+      "tick": 128,
+      "mother_id": 88,
+      "daughter_id": 297,
+      "generation": 5,
+      "orthogonality": 0.94951,
+      "mother_M": 3000.0,
+      "mother_C": 0.96474
+    },
+    {
+      "tick": 128,
+      "mother_id": 130,
+      "daughter_id": 298,
+      "generation": 3,
+      "orthogonality": 0.9851,
+      "mother_M": 3000.0,
+      "mother_C": 0.96502
+    },
+    {
+      "tick": 128,
+      "mother_id": 92,
+      "daughter_id": 299,
+      "generation": 4,
+      "orthogonality": 0.89486,
+      "mother_M": 3000.0,
+      "mother_C": 0.96654
+    },
+    {
+      "tick": 128,
+      "mother_id": 136,
+      "daughter_id": 300,
+      "generation": 4,
+      "orthogonality": 0.7899,
+      "mother_M": 3000.0,
+      "mother_C": 0.96401
+    },
+    {
+      "tick": 128,
+      "mother_id": 81,
+      "daughter_id": 301,
+      "generation": 4,
+      "orthogonality": 0.94095,
+      "mother_M": 3000.0,
+      "mother_C": 0.96418
+    },
+    {
+      "tick": 128,
+      "mother_id": 187,
+      "daughter_id": 302,
+      "generation": 4,
+      "orthogonality": 0.92252,
+      "mother_M": 3000.0,
+      "mother_C": 0.9649
+    },
+    {
+      "tick": 128,
+      "mother_id": 135,
+      "daughter_id": 303,
+      "generation": 4,
+      "orthogonality": 0.76285,
+      "mother_M": 3000.0,
+      "mother_C": 0.96153
+    },
+    {
+      "tick": 128,
+      "mother_id": 185,
+      "daughter_id": 304,
+      "generation": 5,
+      "orthogonality": 0.51682,
+      "mother_M": 3000.0,
+      "mother_C": 0.96506
+    },
+    {
+      "tick": 128,
+      "mother_id": 140,
+      "daughter_id": 305,
+      "generation": 4,
+      "orthogonality": 0.50782,
+      "mother_M": 3000.0,
+      "mother_C": 0.96391
+    },
+    {
+      "tick": 128,
+      "mother_id": 80,
+      "daughter_id": 306,
+      "generation": 3,
+      "orthogonality": 0.53996,
+      "mother_M": 3000.0,
+      "mother_C": 0.9625
+    },
+    {
+      "tick": 128,
+      "mother_id": 60,
+      "daughter_id": 307,
+      "generation": 5,
+      "orthogonality": 0.51811,
+      "mother_M": 3000.0,
+      "mother_C": 0.96039
+    },
+    {
+      "tick": 128,
+      "mother_id": 182,
+      "daughter_id": 308,
+      "generation": 3,
+      "orthogonality": 0.53392,
+      "mother_M": 3000.0,
+      "mother_C": 0.96228
+    },
+    {
+      "tick": 128,
+      "mother_id": 138,
+      "daughter_id": 309,
+      "generation": 3,
+      "orthogonality": 0.3137,
+      "mother_M": 3000.0,
+      "mother_C": 0.96395
+    },
+    {
+      "tick": 128,
+      "mother_id": 18,
+      "daughter_id": 310,
+      "generation": 3,
+      "orthogonality": 0.35806,
+      "mother_M": 3000.0,
+      "mother_C": 0.96268
+    },
+    {
+      "tick": 128,
+      "mother_id": 56,
+      "daughter_id": 311,
+      "generation": 4,
+      "orthogonality": 0.29922,
+      "mother_M": 3000.0,
+      "mother_C": 0.96603
+    },
+    {
+      "tick": 128,
+      "mother_id": 83,
+      "daughter_id": 312,
+      "generation": 3,
+      "orthogonality": 0.33966,
+      "mother_M": 3000.0,
+      "mother_C": 0.96192
+    },
+    {
+      "tick": 128,
+      "mother_id": 19,
+      "daughter_id": 313,
+      "generation": 3,
+      "orthogonality": 0.34926,
+      "mother_M": 3000.0,
+      "mother_C": 0.96296
+    },
+    {
+      "tick": 128,
+      "mother_id": 89,
+      "daughter_id": 314,
+      "generation": 4,
+      "orthogonality": 0.27258,
+      "mother_M": 3000.0,
+      "mother_C": 0.96239
+    },
+    {
+      "tick": 128,
+      "mother_id": 34,
+      "daughter_id": 315,
+      "generation": 3,
+      "orthogonality": 0.32213,
+      "mother_M": 3000.0,
+      "mother_C": 0.95999
+    },
+    {
+      "tick": 128,
+      "mother_id": 57,
+      "daughter_id": 316,
+      "generation": 4,
+      "orthogonality": 0.34525,
+      "mother_M": 3000.0,
+      "mother_C": 0.96293
+    },
+    {
+      "tick": 128,
+      "mother_id": 23,
+      "daughter_id": 317,
+      "generation": 4,
+      "orthogonality": 0.28691,
+      "mother_M": 3000.0,
+      "mother_C": 0.95858
+    },
+    {
+      "tick": 128,
+      "mother_id": 194,
+      "daughter_id": 318,
+      "generation": 5,
+      "orthogonality": 0.22041,
+      "mother_M": 3000.0,
+      "mother_C": 0.96195
+    },
+    {
+      "tick": 128,
+      "mother_id": 46,
+      "daughter_id": 319,
+      "generation": 5,
+      "orthogonality": 0.20266,
+      "mother_M": 3000.0,
+      "mother_C": 0.96326
+    },
+    {
+      "tick": 128,
+      "mother_id": 189,
+      "daughter_id": 320,
+      "generation": 4,
+      "orthogonality": 0.25005,
+      "mother_M": 3000.0,
+      "mother_C": 0.96005
+    },
+    {
+      "tick": 128,
+      "mother_id": 84,
+      "daughter_id": 321,
+      "generation": 4,
+      "orthogonality": 0.18121,
+      "mother_M": 3000.0,
+      "mother_C": 0.95673
+    },
+    {
+      "tick": 128,
+      "mother_id": 52,
+      "daughter_id": 322,
+      "generation": 4,
+      "orthogonality": 0.31108,
+      "mother_M": 3000.0,
+      "mother_C": 0.95946
+    },
+    {
+      "tick": 128,
+      "mother_id": 143,
+      "daughter_id": 323,
+      "generation": 4,
+      "orthogonality": 0.27498,
+      "mother_M": 3000.0,
+      "mother_C": 0.96465
+    },
+    {
+      "tick": 128,
+      "mother_id": 50,
+      "daughter_id": 324,
+      "generation": 4,
+      "orthogonality": 0.45951,
+      "mother_M": 3000.0,
+      "mother_C": 0.95971
+    },
+    {
+      "tick": 128,
+      "mother_id": 183,
+      "daughter_id": 325,
+      "generation": 4,
+      "orthogonality": 0.3967,
+      "mother_M": 3000.0,
+      "mother_C": 0.96185
+    },
+    {
+      "tick": 128,
+      "mother_id": 190,
+      "daughter_id": 326,
+      "generation": 6,
+      "orthogonality": 0.68569,
+      "mother_M": 3000.0,
+      "mother_C": 0.96283
+    },
+    {
+      "tick": 128,
+      "mother_id": 26,
+      "daughter_id": 327,
+      "generation": 4,
+      "orthogonality": 0.49467,
+      "mother_M": 3000.0,
+      "mother_C": 0.9601
+    },
+    {
+      "tick": 128,
+      "mother_id": 44,
+      "daughter_id": 328,
+      "generation": 4,
+      "orthogonality": 0.42845,
+      "mother_M": 3000.0,
+      "mother_C": 0.95804
+    },
+    {
+      "tick": 128,
+      "mother_id": 11,
+      "daughter_id": 329,
+      "generation": 3,
+      "orthogonality": 0.44995,
+      "mother_M": 3000.0,
+      "mother_C": 0.95904
+    },
+    {
+      "tick": 128,
+      "mother_id": 39,
+      "daughter_id": 330,
+      "generation": 4,
+      "orthogonality": 0.57758,
+      "mother_M": 3000.0,
+      "mother_C": 0.95978
+    },
+    {
+      "tick": 128,
+      "mother_id": 192,
+      "daughter_id": 331,
+      "generation": 5,
+      "orthogonality": 0.79581,
+      "mother_M": 3000.0,
+      "mother_C": 0.95724
+    },
+    {
+      "tick": 128,
+      "mother_id": 51,
+      "daughter_id": 332,
+      "generation": 4,
+      "orthogonality": 0.6495,
+      "mother_M": 3000.0,
+      "mother_C": 0.95496
+    },
+    {
+      "tick": 128,
+      "mother_id": 75,
+      "daughter_id": 333,
+      "generation": 4,
+      "orthogonality": 0.57277,
+      "mother_M": 3000.0,
+      "mother_C": 0.96116
+    },
+    {
+      "tick": 128,
+      "mother_id": 196,
+      "daughter_id": 334,
+      "generation": 4,
+      "orthogonality": 0.4675,
+      "mother_M": 3000.0,
+      "mother_C": 0.96522
+    },
+    {
+      "tick": 128,
+      "mother_id": 47,
+      "daughter_id": 335,
+      "generation": 5,
+      "orthogonality": 0.56942,
+      "mother_M": 3000.0,
+      "mother_C": 0.96051
+    },
+    {
+      "tick": 128,
+      "mother_id": 72,
+      "daughter_id": 336,
+      "generation": 3,
+      "orthogonality": 0.49006,
+      "mother_M": 3000.0,
+      "mother_C": 0.95553
+    },
+    {
+      "tick": 128,
+      "mother_id": 150,
+      "daughter_id": 337,
+      "generation": 4,
+      "orthogonality": 0.33612,
+      "mother_M": 3000.0,
+      "mother_C": 0.95353
+    },
+    {
+      "tick": 128,
+      "mother_id": 147,
+      "daughter_id": 338,
+      "generation": 4,
+      "orthogonality": 0.34072,
+      "mother_M": 3000.0,
+      "mother_C": 0.96118
+    },
+    {
+      "tick": 128,
+      "mother_id": 141,
+      "daughter_id": 339,
+      "generation": 3,
+      "orthogonality": 0.40217,
+      "mother_M": 3000.0,
+      "mother_C": 0.95367
+    },
+    {
+      "tick": 128,
+      "mother_id": 99,
+      "daughter_id": 340,
+      "generation": 4,
+      "orthogonality": 0.4031,
+      "mother_M": 3000.0,
+      "mother_C": 0.95421
+    },
+    {
+      "tick": 128,
+      "mother_id": 6,
+      "daughter_id": 341,
+      "generation": 3,
+      "orthogonality": 0.48848,
+      "mother_M": 3000.0,
+      "mother_C": 0.95224
+    },
+    {
+      "tick": 128,
+      "mother_id": 155,
+      "daughter_id": 342,
+      "generation": 5,
+      "orthogonality": 0.60335,
+      "mother_M": 3000.0,
+      "mother_C": 0.95794
+    },
+    {
+      "tick": 128,
+      "mother_id": 193,
+      "daughter_id": 343,
+      "generation": 5,
+      "orthogonality": 0.3718,
+      "mother_M": 3000.0,
+      "mother_C": 0.96105
+    },
+    {
+      "tick": 128,
+      "mother_id": 85,
+      "daughter_id": 344,
+      "generation": 4,
+      "orthogonality": 0.50432,
+      "mother_M": 3000.0,
+      "mother_C": 0.95974
+    },
+    {
+      "tick": 128,
+      "mother_id": 91,
+      "daughter_id": 345,
+      "generation": 4,
+      "orthogonality": 0.76594,
+      "mother_M": 3000.0,
+      "mother_C": 0.95572
+    },
+    {
+      "tick": 128,
+      "mother_id": 29,
+      "daughter_id": 346,
+      "generation": 4,
+      "orthogonality": 0.81483,
+      "mother_M": 3000.0,
+      "mother_C": 0.96398
+    },
+    {
+      "tick": 128,
+      "mother_id": 195,
+      "daughter_id": 347,
+      "generation": 4,
+      "orthogonality": 0.69896,
+      "mother_M": 3000.0,
+      "mother_C": 0.95468
+    },
+    {
+      "tick": 128,
+      "mother_id": 139,
+      "daughter_id": 348,
+      "generation": 4,
+      "orthogonality": 0.79293,
+      "mother_M": 3000.0,
+      "mother_C": 0.95781
+    },
+    {
+      "tick": 128,
+      "mother_id": 157,
+      "daughter_id": 349,
+      "generation": 4,
+      "orthogonality": 0.73119,
+      "mother_M": 3000.0,
+      "mother_C": 0.95872
+    },
+    {
+      "tick": 128,
+      "mother_id": 82,
+      "daughter_id": 350,
+      "generation": 4,
+      "orthogonality": 0.52605,
+      "mother_M": 3000.0,
+      "mother_C": 0.96037
+    },
+    {
+      "tick": 128,
+      "mother_id": 156,
+      "daughter_id": 351,
+      "generation": 4,
+      "orthogonality": 0.53241,
+      "mother_M": 3000.0,
+      "mother_C": 0.9563
+    },
+    {
+      "tick": 128,
+      "mother_id": 148,
+      "daughter_id": 352,
+      "generation": 4,
+      "orthogonality": 0.79073,
+      "mother_M": 3000.0,
+      "mother_C": 0.95552
+    },
+    {
+      "tick": 128,
+      "mother_id": 142,
+      "daughter_id": 353,
+      "generation": 4,
+      "orthogonality": 0.82469,
+      "mother_M": 3000.0,
+      "mother_C": 0.95821
+    },
+    {
+      "tick": 128,
+      "mother_id": 212,
+      "daughter_id": 354,
+      "generation": 5,
+      "orthogonality": 0.80229,
+      "mother_M": 3000.0,
+      "mother_C": 0.95985
+    },
+    {
+      "tick": 128,
+      "mother_id": 14,
+      "daughter_id": 355,
+      "generation": 4,
+      "orthogonality": 0.7807,
+      "mother_M": 3000.0,
+      "mother_C": 0.95381
+    },
+    {
+      "tick": 128,
+      "mother_id": 153,
+      "daughter_id": 356,
+      "generation": 5,
+      "orthogonality": 0.83223,
+      "mother_M": 3000.0,
+      "mother_C": 0.9565
+    },
+    {
+      "tick": 128,
+      "mother_id": 204,
+      "daughter_id": 357,
+      "generation": 6,
+      "orthogonality": 0.61125,
+      "mother_M": 3000.0,
+      "mother_C": 0.9586
+    },
+    {
+      "tick": 128,
+      "mother_id": 208,
+      "daughter_id": 358,
+      "generation": 5,
+      "orthogonality": 0.59715,
+      "mother_M": 3000.0,
+      "mother_C": 0.95799
+    },
+    {
+      "tick": 128,
+      "mother_id": 86,
+      "daughter_id": 359,
+      "generation": 4,
+      "orthogonality": 0.56212,
+      "mother_M": 3000.0,
+      "mother_C": 0.95233
+    },
+    {
+      "tick": 128,
+      "mother_id": 21,
+      "daughter_id": 360,
+      "generation": 3,
+      "orthogonality": 0.53765,
+      "mother_M": 3000.0,
+      "mother_C": 0.95625
+    },
+    {
+      "tick": 128,
+      "mother_id": 37,
+      "daughter_id": 361,
+      "generation": 3,
+      "orthogonality": 0.5869,
+      "mother_M": 3000.0,
+      "mother_C": 0.95429
+    },
+    {
+      "tick": 128,
+      "mother_id": 145,
+      "daughter_id": 362,
+      "generation": 6,
+      "orthogonality": 0.54489,
+      "mother_M": 3000.0,
+      "mother_C": 0.95499
+    },
+    {
+      "tick": 128,
+      "mother_id": 144,
+      "daughter_id": 363,
+      "generation": 4,
+      "orthogonality": 0.65814,
+      "mother_M": 3000.0,
+      "mother_C": 0.9587
+    },
+    {
+      "tick": 128,
+      "mother_id": 199,
+      "daughter_id": 364,
+      "generation": 4,
+      "orthogonality": 0.68574,
+      "mother_M": 3000.0,
+      "mother_C": 0.95507
+    },
+    {
+      "tick": 128,
+      "mother_id": 179,
+      "daughter_id": 365,
+      "generation": 6,
+      "orthogonality": 0.78356,
+      "mother_M": 3000.0,
+      "mother_C": 0.95798
+    },
+    {
+      "tick": 128,
+      "mother_id": 146,
+      "daughter_id": 366,
+      "generation": 5,
+      "orthogonality": 0.82353,
+      "mother_M": 3000.0,
+      "mother_C": 0.95601
+    },
+    {
+      "tick": 128,
+      "mother_id": 113,
+      "daughter_id": 367,
+      "generation": 5,
+      "orthogonality": 0.74377,
+      "mother_M": 3000.0,
+      "mother_C": 0.95639
+    },
+    {
+      "tick": 128,
+      "mother_id": 154,
+      "daughter_id": 368,
+      "generation": 4,
+      "orthogonality": 0.94113,
+      "mother_M": 3000.0,
+      "mother_C": 0.95378
+    },
+    {
+      "tick": 128,
+      "mother_id": 200,
+      "daughter_id": 369,
+      "generation": 5,
+      "orthogonality": 0.82757,
+      "mother_M": 3000.0,
+      "mother_C": 0.95915
+    },
+    {
+      "tick": 128,
+      "mother_id": 197,
+      "daughter_id": 370,
+      "generation": 5,
+      "orthogonality": 0.77929,
+      "mother_M": 3000.0,
+      "mother_C": 0.95431
+    },
+    {
+      "tick": 128,
+      "mother_id": 163,
+      "daughter_id": 371,
+      "generation": 5,
+      "orthogonality": 0.65348,
+      "mother_M": 3000.0,
+      "mother_C": 0.9589
+    },
+    {
+      "tick": 128,
+      "mother_id": 98,
+      "daughter_id": 372,
+      "generation": 4,
+      "orthogonality": 0.63714,
+      "mother_M": 3000.0,
+      "mother_C": 0.95321
+    },
+    {
+      "tick": 128,
+      "mother_id": 87,
+      "daughter_id": 373,
+      "generation": 6,
+      "orthogonality": 0.5841,
+      "mother_M": 3000.0,
+      "mother_C": 0.95281
+    },
+    {
+      "tick": 128,
+      "mother_id": 151,
+      "daughter_id": 374,
+      "generation": 5,
+      "orthogonality": 0.45273,
+      "mother_M": 3000.0,
+      "mother_C": 0.95591
+    },
+    {
+      "tick": 128,
+      "mother_id": 167,
+      "daughter_id": 375,
+      "generation": 5,
+      "orthogonality": 0.50131,
+      "mother_M": 3000.0,
+      "mother_C": 0.95524
+    },
+    {
+      "tick": 128,
+      "mother_id": 58,
+      "daughter_id": 376,
+      "generation": 5,
+      "orthogonality": 0.50118,
+      "mother_M": 3000.0,
+      "mother_C": 0.95431
+    },
+    {
+      "tick": 128,
+      "mother_id": 104,
+      "daughter_id": 377,
+      "generation": 5,
+      "orthogonality": 0.45957,
+      "mother_M": 3000.0,
+      "mother_C": 0.95319
+    },
+    {
+      "tick": 128,
+      "mother_id": 105,
+      "daughter_id": 378,
+      "generation": 5,
+      "orthogonality": 0.61427,
+      "mother_M": 3000.0,
+      "mother_C": 0.9562
+    },
+    {
+      "tick": 128,
+      "mother_id": 61,
+      "daughter_id": 379,
+      "generation": 5,
+      "orthogonality": 0.45306,
+      "mother_M": 3000.0,
+      "mother_C": 0.95381
+    },
+    {
+      "tick": 128,
+      "mother_id": 97,
+      "daughter_id": 380,
+      "generation": 5,
+      "orthogonality": 0.44889,
+      "mother_M": 3000.0,
+      "mother_C": 0.95316
+    },
+    {
+      "tick": 128,
+      "mother_id": 205,
+      "daughter_id": 381,
+      "generation": 5,
+      "orthogonality": 0.42143,
+      "mother_M": 3000.0,
+      "mother_C": 0.95307
+    },
+    {
+      "tick": 128,
+      "mother_id": 42,
+      "daughter_id": 382,
+      "generation": 4,
+      "orthogonality": 0.38616,
+      "mother_M": 3000.0,
+      "mother_C": 0.95135
+    },
+    {
+      "tick": 128,
+      "mother_id": 95,
+      "daughter_id": 383,
+      "generation": 5,
+      "orthogonality": 0.55584,
+      "mother_M": 3000.0,
+      "mother_C": 0.95179
+    },
+    {
+      "tick": 128,
+      "mother_id": 38,
+      "daughter_id": 384,
+      "generation": 4,
+      "orthogonality": 0.49804,
+      "mother_M": 3000.0,
+      "mother_C": 0.94795
+    },
+    {
+      "tick": 128,
+      "mother_id": 158,
+      "daughter_id": 385,
+      "generation": 4,
+      "orthogonality": 0.41137,
+      "mother_M": 3000.0,
+      "mother_C": 0.9502
+    },
+    {
+      "tick": 128,
+      "mother_id": 162,
+      "daughter_id": 386,
+      "generation": 5,
+      "orthogonality": 0.37882,
+      "mother_M": 3000.0,
+      "mother_C": 0.95293
+    },
+    {
+      "tick": 128,
+      "mother_id": 191,
+      "daughter_id": 387,
+      "generation": 5,
+      "orthogonality": 0.41201,
+      "mother_M": 3000.0,
+      "mother_C": 0.94969
+    },
+    {
+      "tick": 128,
+      "mother_id": 176,
+      "daughter_id": 388,
+      "generation": 6,
+      "orthogonality": 0.391,
+      "mother_M": 3000.0,
+      "mother_C": 0.95211
+    },
+    {
+      "tick": 128,
+      "mother_id": 43,
+      "daughter_id": 389,
+      "generation": 4,
+      "orthogonality": 0.36484,
+      "mother_M": 3000.0,
+      "mother_C": 0.95076
+    },
+    {
+      "tick": 128,
+      "mother_id": 149,
+      "daughter_id": 390,
+      "generation": 4,
+      "orthogonality": 0.29465,
+      "mother_M": 3000.0,
+      "mother_C": 0.95352
+    },
+    {
+      "tick": 128,
+      "mother_id": 103,
+      "daughter_id": 391,
+      "generation": 5,
+      "orthogonality": 0.31489,
+      "mother_M": 3000.0,
+      "mother_C": 0.94954
+    },
+    {
+      "tick": 128,
+      "mother_id": 102,
+      "daughter_id": 392,
+      "generation": 5,
+      "orthogonality": 0.5312,
+      "mother_M": 3000.0,
+      "mother_C": 0.94673
+    },
+    {
+      "tick": 128,
+      "mother_id": 90,
+      "daughter_id": 393,
+      "generation": 4,
+      "orthogonality": 0.62625,
+      "mother_M": 3000.0,
+      "mother_C": 0.95615
+    },
+    {
+      "tick": 128,
+      "mother_id": 161,
+      "daughter_id": 394,
+      "generation": 5,
+      "orthogonality": 0.60926,
+      "mother_M": 3000.0,
+      "mother_C": 0.95519
+    },
+    {
+      "tick": 128,
+      "mother_id": 53,
+      "daughter_id": 395,
+      "generation": 4,
+      "orthogonality": 0.85562,
+      "mother_M": 3000.0,
+      "mother_C": 0.95141
+    },
+    {
+      "tick": 128,
+      "mother_id": 201,
+      "daughter_id": 396,
+      "generation": 5,
+      "orthogonality": 0.88904,
+      "mother_M": 3000.0,
+      "mother_C": 0.95232
+    },
+    {
+      "tick": 128,
+      "mother_id": 188,
+      "daughter_id": 397,
+      "generation": 4,
+      "orthogonality": 0.93036,
+      "mother_M": 3000.0,
+      "mother_C": 0.96052
+    },
+    {
+      "tick": 128,
+      "mother_id": 160,
+      "daughter_id": 398,
+      "generation": 5,
+      "orthogonality": 0.75701,
+      "mother_M": 3000.0,
+      "mother_C": 0.95149
+    },
+    {
+      "tick": 128,
+      "mother_id": 106,
+      "daughter_id": 399,
+      "generation": 5,
+      "orthogonality": 0.58981,
+      "mother_M": 3000.0,
+      "mother_C": 0.94882
+    },
+    {
+      "tick": 128,
+      "mother_id": 198,
+      "daughter_id": 400,
+      "generation": 5,
+      "orthogonality": 0.54038,
+      "mother_M": 3000.0,
+      "mother_C": 0.94995
+    },
+    {
+      "tick": 128,
+      "mother_id": 215,
+      "daughter_id": 401,
+      "generation": 5,
+      "orthogonality": 0.64083,
+      "mother_M": 3000.0,
+      "mother_C": 0.9479
+    },
+    {
+      "tick": 128,
+      "mother_id": 108,
+      "daughter_id": 402,
+      "generation": 5,
+      "orthogonality": 0.98706,
+      "mother_M": 3000.0,
+      "mother_C": 0.95102
+    },
+    {
+      "tick": 128,
+      "mother_id": 101,
+      "daughter_id": 403,
+      "generation": 4,
+      "orthogonality": 0.89249,
+      "mother_M": 3000.0,
+      "mother_C": 0.94933
+    },
+    {
+      "tick": 128,
+      "mother_id": 100,
+      "daughter_id": 404,
+      "generation": 4,
+      "orthogonality": 0.75744,
+      "mother_M": 3000.0,
+      "mother_C": 0.95427
+    },
+    {
+      "tick": 128,
+      "mother_id": 165,
+      "daughter_id": 405,
+      "generation": 5,
+      "orthogonality": 0.48903,
+      "mother_M": 3000.0,
+      "mother_C": 0.94823
+    },
+    {
+      "tick": 128,
+      "mother_id": 207,
+      "daughter_id": 406,
+      "generation": 5,
+      "orthogonality": 0.51157,
+      "mother_M": 3000.0,
+      "mother_C": 0.94272
+    },
+    {
+      "tick": 128,
+      "mother_id": 22,
+      "daughter_id": 407,
+      "generation": 4,
+      "orthogonality": 0.46162,
+      "mother_M": 3000.0,
+      "mother_C": 0.94232
+    },
+    {
+      "tick": 128,
+      "mother_id": 94,
+      "daughter_id": 408,
+      "generation": 4,
+      "orthogonality": 0.40193,
+      "mother_M": 3000.0,
+      "mother_C": 0.94685
+    },
+    {
+      "tick": 128,
+      "mother_id": 171,
+      "daughter_id": 409,
+      "generation": 5,
+      "orthogonality": 0.54832,
+      "mother_M": 3000.0,
+      "mother_C": 0.94638
+    },
+    {
+      "tick": 128,
+      "mother_id": 27,
+      "daughter_id": 410,
+      "generation": 4,
+      "orthogonality": 0.7089,
+      "mother_M": 3000.0,
+      "mother_C": 0.94426
+    },
+    {
+      "tick": 128,
+      "mother_id": 111,
+      "daughter_id": 411,
+      "generation": 5,
+      "orthogonality": 0.54708,
+      "mother_M": 3000.0,
+      "mother_C": 0.94209
+    },
+    {
+      "tick": 128,
+      "mother_id": 121,
+      "daughter_id": 412,
+      "generation": 6,
+      "orthogonality": 0.52429,
+      "mother_M": 3000.0,
+      "mother_C": 0.95103
+    },
+    {
+      "tick": 128,
+      "mother_id": 107,
+      "daughter_id": 413,
+      "generation": 5,
+      "orthogonality": 0.35711,
+      "mother_M": 3000.0,
+      "mother_C": 0.9471
+    },
+    {
+      "tick": 128,
+      "mother_id": 159,
+      "daughter_id": 414,
+      "generation": 4,
+      "orthogonality": 0.2745,
+      "mother_M": 3000.0,
+      "mother_C": 0.94511
+    },
+    {
+      "tick": 128,
+      "mother_id": 203,
+      "daughter_id": 415,
+      "generation": 7,
+      "orthogonality": 0.55531,
+      "mother_M": 3000.0,
+      "mother_C": 0.95099
+    },
+    {
+      "tick": 128,
+      "mother_id": 166,
+      "daughter_id": 416,
+      "generation": 5,
+      "orthogonality": 0.59195,
+      "mother_M": 3000.0,
+      "mother_C": 0.94753
+    },
+    {
+      "tick": 128,
+      "mother_id": 117,
+      "daughter_id": 417,
+      "generation": 6,
+      "orthogonality": 0.66793,
+      "mother_M": 3000.0,
+      "mother_C": 0.94344
+    },
+    {
+      "tick": 128,
+      "mother_id": 220,
+      "daughter_id": 418,
+      "generation": 6,
+      "orthogonality": 0.72384,
+      "mother_M": 3000.0,
+      "mother_C": 0.94794
+    },
+    {
+      "tick": 128,
+      "mother_id": 164,
+      "daughter_id": 419,
+      "generation": 5,
+      "orthogonality": 0.69995,
+      "mother_M": 3000.0,
+      "mother_C": 0.94602
+    },
+    {
+      "tick": 128,
+      "mother_id": 31,
+      "daughter_id": 420,
+      "generation": 5,
+      "orthogonality": 0.71107,
+      "mother_M": 3000.0,
+      "mother_C": 0.94228
+    },
+    {
+      "tick": 128,
+      "mother_id": 112,
+      "daughter_id": 421,
+      "generation": 5,
+      "orthogonality": 0.76789,
+      "mother_M": 3000.0,
+      "mother_C": 0.95142
+    },
+    {
+      "tick": 128,
+      "mother_id": 93,
+      "daughter_id": 422,
+      "generation": 5,
+      "orthogonality": 0.72808,
+      "mother_M": 3000.0,
+      "mother_C": 0.94594
+    },
+    {
+      "tick": 128,
+      "mother_id": 45,
+      "daughter_id": 423,
+      "generation": 4,
+      "orthogonality": 0.61964,
+      "mother_M": 3000.0,
+      "mother_C": 0.94279
+    },
+    {
+      "tick": 128,
+      "mother_id": 218,
+      "daughter_id": 424,
+      "generation": 6,
+      "orthogonality": 0.75101,
+      "mother_M": 3000.0,
+      "mother_C": 0.94648
+    },
+    {
+      "tick": 128,
+      "mother_id": 202,
+      "daughter_id": 425,
+      "generation": 5,
+      "orthogonality": 0.44773,
+      "mother_M": 3000.0,
+      "mother_C": 0.94678
+    },
+    {
+      "tick": 128,
+      "mother_id": 213,
+      "daughter_id": 426,
+      "generation": 6,
+      "orthogonality": 0.49595,
+      "mother_M": 3000.0,
+      "mother_C": 0.94675
+    },
+    {
+      "tick": 128,
+      "mother_id": 177,
+      "daughter_id": 427,
+      "generation": 6,
+      "orthogonality": 0.66068,
+      "mother_M": 3000.0,
+      "mother_C": 0.94711
+    },
+    {
+      "tick": 128,
+      "mother_id": 152,
+      "daughter_id": 428,
+      "generation": 4,
+      "orthogonality": 0.66929,
+      "mother_M": 3000.0,
+      "mother_C": 0.94025
+    },
+    {
+      "tick": 128,
+      "mother_id": 175,
+      "daughter_id": 429,
+      "generation": 6,
+      "orthogonality": 0.63696,
+      "mother_M": 3000.0,
+      "mother_C": 0.94883
+    },
+    {
+      "tick": 128,
+      "mother_id": 109,
+      "daughter_id": 430,
+      "generation": 5,
+      "orthogonality": 0.49298,
+      "mother_M": 3000.0,
+      "mother_C": 0.94477
+    },
+    {
+      "tick": 128,
+      "mother_id": 170,
+      "daughter_id": 431,
+      "generation": 5,
+      "orthogonality": 0.61042,
+      "mother_M": 3000.0,
+      "mother_C": 0.94432
+    },
+    {
+      "tick": 128,
+      "mother_id": 214,
+      "daughter_id": 432,
+      "generation": 5,
+      "orthogonality": 0.6984,
+      "mother_M": 3000.0,
+      "mother_C": 0.94429
+    },
+    {
+      "tick": 128,
+      "mother_id": 178,
+      "daughter_id": 433,
+      "generation": 5,
+      "orthogonality": 0.74315,
+      "mother_M": 3000.0,
+      "mother_C": 0.94392
+    },
+    {
+      "tick": 128,
+      "mother_id": 222,
+      "daughter_id": 434,
+      "generation": 6,
+      "orthogonality": 0.72705,
+      "mother_M": 3000.0,
+      "mother_C": 0.94096
+    },
+    {
+      "tick": 128,
+      "mother_id": 115,
+      "daughter_id": 435,
+      "generation": 5,
+      "orthogonality": 0.73553,
+      "mother_M": 3000.0,
+      "mother_C": 0.94977
+    },
+    {
+      "tick": 128,
+      "mother_id": 211,
+      "daughter_id": 436,
+      "generation": 6,
+      "orthogonality": 0.79711,
+      "mother_M": 3000.0,
+      "mother_C": 0.9459
+    },
+    {
+      "tick": 128,
+      "mother_id": 206,
+      "daughter_id": 437,
+      "generation": 5,
+      "orthogonality": 0.78146,
+      "mother_M": 3000.0,
+      "mother_C": 0.94977
+    },
+    {
+      "tick": 128,
+      "mother_id": 116,
+      "daughter_id": 438,
+      "generation": 6,
+      "orthogonality": 0.71189,
+      "mother_M": 3000.0,
+      "mother_C": 0.94622
+    },
+    {
+      "tick": 128,
+      "mother_id": 221,
+      "daughter_id": 439,
+      "generation": 6,
+      "orthogonality": 0.80269,
+      "mother_M": 3000.0,
+      "mother_C": 0.9424
+    },
+    {
+      "tick": 128,
+      "mother_id": 168,
+      "daughter_id": 440,
+      "generation": 5,
+      "orthogonality": 0.696,
+      "mother_M": 3000.0,
+      "mother_C": 0.94329
+    },
+    {
+      "tick": 128,
+      "mother_id": 237,
+      "daughter_id": 441,
+      "generation": 7,
+      "orthogonality": 0.7289,
+      "mother_M": 3000.0,
+      "mother_C": 0.94238
+    },
+    {
+      "tick": 128,
+      "mother_id": 118,
+      "daughter_id": 442,
+      "generation": 6,
+      "orthogonality": 0.82857,
+      "mother_M": 3000.0,
+      "mother_C": 0.94553
+    },
+    {
+      "tick": 128,
+      "mother_id": 229,
+      "daughter_id": 443,
+      "generation": 6,
+      "orthogonality": 0.7168,
+      "mother_M": 3000.0,
+      "mother_C": 0.94137
+    },
+    {
+      "tick": 128,
+      "mother_id": 209,
+      "daughter_id": 444,
+      "generation": 6,
+      "orthogonality": 0.88622,
+      "mother_M": 3000.0,
+      "mother_C": 0.94464
+    },
+    {
+      "tick": 128,
+      "mother_id": 119,
+      "daughter_id": 445,
+      "generation": 6,
+      "orthogonality": 0.72265,
+      "mother_M": 3000.0,
+      "mother_C": 0.94036
+    },
+    {
+      "tick": 128,
+      "mother_id": 172,
+      "daughter_id": 446,
+      "generation": 5,
+      "orthogonality": 0.76083,
+      "mother_M": 3000.0,
+      "mother_C": 0.94647
+    },
+    {
+      "tick": 128,
+      "mother_id": 173,
+      "daughter_id": 447,
+      "generation": 5,
+      "orthogonality": 0.74551,
+      "mother_M": 3000.0,
+      "mother_C": 0.94323
+    },
+    {
+      "tick": 128,
+      "mother_id": 227,
+      "daughter_id": 448,
+      "generation": 6,
+      "orthogonality": 0.64742,
+      "mother_M": 3000.0,
+      "mother_C": 0.93762
+    },
+    {
+      "tick": 128,
+      "mother_id": 110,
+      "daughter_id": 449,
+      "generation": 5,
+      "orthogonality": 0.62995,
+      "mother_M": 3000.0,
+      "mother_C": 0.93683
+    },
+    {
+      "tick": 128,
+      "mother_id": 174,
+      "daughter_id": 450,
+      "generation": 6,
+      "orthogonality": 0.66026,
+      "mother_M": 3000.0,
+      "mother_C": 0.93984
+    }
+  ],
+  "death_log": [],
+  "unexpected_events": [
+    {
+      "tick": 128,
+      "event": "POPULATION_CAP_HIT agents_culled_to=250",
+      "timestamp": "2026-04-10T19:28:36.207338"
+    },
+    {
+      "tick": 129,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.207755"
+    },
+    {
+      "tick": 129,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.208200"
+    },
+    {
+      "tick": 130,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.226786"
+    },
+    {
+      "tick": 130,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.227447"
+    },
+    {
+      "tick": 131,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.232916"
+    },
+    {
+      "tick": 131,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.233464"
+    },
+    {
+      "tick": 132,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.238368"
+    },
+    {
+      "tick": 132,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.238844"
+    },
+    {
+      "tick": 133,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.243783"
+    },
+    {
+      "tick": 133,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.244319"
+    },
+    {
+      "tick": 134,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.249775"
+    },
+    {
+      "tick": 134,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.250370"
+    },
+    {
+      "tick": 135,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.255835"
+    },
+    {
+      "tick": 135,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.256462"
+    },
+    {
+      "tick": 136,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.261676"
+    },
+    {
+      "tick": 136,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.262297"
+    },
+    {
+      "tick": 137,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.267646"
+    },
+    {
+      "tick": 137,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.268171"
+    },
+    {
+      "tick": 138,
+      "event": "DYNASTY_EMERGENCE agent=1 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.273320"
+    },
+    {
+      "tick": 138,
+      "event": "DYNASTY_EMERGENCE agent=0 births=8 gen=0",
+      "timestamp": "2026-04-10T19:28:36.273950"
+    }
+  ]
+}

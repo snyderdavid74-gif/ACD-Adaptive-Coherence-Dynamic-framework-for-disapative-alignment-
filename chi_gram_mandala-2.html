@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>χ-Gram Mandala · SMEM v14.1</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Share+Tech+Mono&family=Cinzel:wght@400;700&display=swap');
+
+  :root {
+    --gold: #c8a84b;
+    --gold-dim: #7a5e1a;
+    --gold-bright: #f0d080;
+    --obsidian: #080808;
+    --deep: #0d0d0f;
+    --fog: rgba(200,168,75,0.06);
+    --accent: #3ecfcf;
+    --accent-dim: #1a6a6a;
+    --blood: #8b1a1a;
+    --chi: #b44fcf;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background: var(--obsidian);
+    color: var(--gold);
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+    cursor: crosshair;
+  }
+
+  /* Grain overlay */
+  body::before {
+    content:'';
+    position:fixed; inset:0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 1000;
+  }
+
+  header {
+    padding: 2.5rem 3rem 1rem;
+    border-bottom: 1px solid var(--gold-dim);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    animation: fadeIn 1.2s ease both;
+  }
+
+  .title-block h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1.1rem, 2.5vw, 1.9rem);
+    letter-spacing: 0.22em;
+    color: var(--gold-bright);
+    text-shadow: 0 0 30px rgba(200,168,75,0.5);
+  }
+
+  .title-block .sub {
+    font-size: 0.68rem;
+    color: var(--gold-dim);
+    letter-spacing: 0.15em;
+    margin-top: 0.3rem;
+  }
+
+  .header-stats {
+    text-align: right;
+    font-size: 0.62rem;
+    color: var(--gold-dim);
+    line-height: 1.8;
+  }
+
+  .header-stats span { color: var(--accent); }
+
+  /* Main layout */
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 0;
+    padding: 2rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease 0.3s both;
+  }
+
+  /* Canvas column */
+  .canvas-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .mandala-frame {
+    position: relative;
+    width: min(600px, 90vw);
+    height: min(600px, 90vw);
+  }
+
+  /* Outer decorative rings */
+  .mandala-frame::before, .mandala-frame::after {
+    content:'';
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .mandala-frame::before {
+    inset: -18px;
+    border: 1px solid var(--gold-dim);
+    opacity: 0.4;
+    animation: slowSpin 120s linear infinite;
+  }
+  .mandala-frame::after {
+    inset: -32px;
+    border: 1px dashed var(--gold-dim);
+    opacity: 0.2;
+    animation: slowSpin 200s linear infinite reverse;
+  }
+
+  canvas#mandala {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    box-shadow:
+      0 0 60px rgba(200,168,75,0.12),
+      0 0 120px rgba(200,168,75,0.05),
+      inset 0 0 40px rgba(0,0,0,0.8);
+  }
+
+  /* Probe readout */
+  #probe {
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    min-height: 1.4rem;
+    text-align: center;
+  }
+
+  /* Mode controls */
+  .controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    padding: 0.35rem 0.9rem;
+    border: 1px solid var(--gold-dim);
+    background: transparent;
+    color: var(--gold-dim);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn:hover, .btn.active {
+    border-color: var(--gold);
+    color: var(--gold-bright);
+    background: rgba(200,168,75,0.08);
+    box-shadow: 0 0 12px rgba(200,168,75,0.2);
+  }
+
+  /* Sidebar */
+  .sidebar {
+    padding: 0 0 0 2.5rem;
+    border-left: 1px solid rgba(200,168,75,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .panel {
+    animation: fadeIn 1.8s ease 0.6s both;
+  }
+
+  .panel-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.62rem;
+    letter-spacing: 0.25em;
+    color: var(--gold-dim);
+    border-bottom: 1px solid rgba(200,168,75,0.15);
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.9rem;
+    text-transform: uppercase;
+  }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.63rem;
+    line-height: 2;
+    border-bottom: 1px solid rgba(200,168,75,0.05);
+  }
+  .stat-row .label { color: var(--gold-dim); }
+  .stat-row .val   { color: var(--gold-bright); }
+  .stat-row .val.accent { color: var(--accent); }
+  .stat-row .val.chi-color { color: var(--chi); }
+
+  /* Eigenvalue sparkline */
+  #eigenCanvas {
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  /* Chi vector display */
+  .chi-vec {
+    font-size: 0.58rem;
+    line-height: 1.9;
+    color: var(--chi);
+  }
+  .chi-vec .chi-label { color: var(--gold-dim); margin-right: 0.4rem; }
+
+  /* Inscription */
+  .inscription {
+    margin-top: auto;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 0.72rem;
+    line-height: 1.9;
+    color: rgba(200,168,75,0.35);
+    font-style: italic;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(200,168,75,0.1);
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.55rem;
+    color: var(--gold-dim);
+    letter-spacing: 0.18em;
+    border-top: 1px solid rgba(200,168,75,0.1);
+    opacity: 0.5;
+  }
+
+  @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:none} }
+  @keyframes slowSpin { to { transform: rotate(360deg); } }
+
+  /* Responsive */
+  @media (max-width: 800px) {
+    .main { grid-template-columns: 1fr; }
+    .sidebar { border-left: none; border-top: 1px solid rgba(200,168,75,0.15); padding: 1.5rem 0 0; }
+    header { flex-direction: column; gap: 0.8rem; }
+    .header-stats { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title-block">
+    <h1>χ — G R A M &nbsp; M A N D A L A</h1>
+    <div class="sub">SMEM v14.1 · GEM-ZENITH · 112-Agent Coherence Matrix · David L. Snyder · Sophophysics · 2026</div>
+  </div>
+  <div class="header-stats">
+    AGENTS <span>112</span> · TRACE <span>112.000</span><br>
+    FROBENIUS <span>112.37</span> · COND# <span>4.23</span><br>
+    λ<sub>max</sub> <span>3.47</span> · λ<sub>min</sub> <span>0.82</span>
+  </div>
+</header>
+
+<div class="main">
+  <div class="canvas-col">
+    <div class="mandala-frame">
+      <canvas id="mandala" width="600" height="600"></canvas>
+    </div>
+    <div id="probe">hover to probe · click to lock agent</div>
+    <div class="controls">
+      <button class="btn active" onclick="setMode('coherence')">COHERENCE</button>
+      <button class="btn" onclick="setMode('generation')">GENERATION</button>
+      <button class="btn" onclick="setMode('family')">FAMILY BLOCKS</button>
+      <button class="btn" onclick="setMode('phase')">PHASE</button>
+      <button class="btn" onclick="setMode('eigenmode')">EIGENMODE</button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+
+    <div class="panel">
+      <div class="panel-title">Matrix Properties</div>
+      <div class="stat-row"><span class="label">Dimension</span><span class="val">112 × 112</span></div>
+      <div class="stat-row"><span class="label">Diagonal mean</span><span class="val accent">1.000000</span></div>
+      <div class="stat-row"><span class="label">Off-diagonal mean</span><span class="val">0.031</span></div>
+      <div class="stat-row"><span class="label">Trace</span><span class="val accent">112.000</span></div>
+      <div class="stat-row"><span class="label">Frobenius norm</span><span class="val">112.37</span></div>
+      <div class="stat-row"><span class="label">Condition κ</span><span class="val">4.23</span></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">Eigenvalue Spectrum</div>
+      <div class="stat-row"><span class="label">λ<sub>max</sub> (collective)</span><span class="val accent">3.470</span></div>
+      <div class="stat-row"><span class="label">λ<sub>min</sub></span><span class="val">0.820</span></div>
+      <div class="stat-row"><span class="label">All positive</span><span class="val accent">✓ PSD</span></div>
+      <div class="stat-row"><span class="label">No collapsed dim</span><span class="val accent">✓ STABLE</span></div>
+      <canvas id="eigenCanvas"></canvas>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">χ_73 Sovereign — Final State</div>
+      <div class="chi-vec">
+        <div><span class="chi-label">axis 0</span>0.4753 − 0.0071i</div>
+        <div><span class="chi-label">axis 1</span>0.2817 + 0.0553i</div>
+        <div><span class="chi-label">axis 2</span>0.7179 + 0.1967i</div>
+        <div><span class="chi-label">axis 3</span>0.3624 + 0.0785i</div>
+      </div>
+      <div class="stat-row" style="margin-top:0.6rem">
+        <span class="label">‖χ_73‖</span>
+        <span class="val chi-color">1.000000</span>
+      </div>
+      <div class="stat-row">
+        <span class="label">Generation</span>
+        <span class="val chi-color">6 (daughter of 46)</span>
+      </div>
+      <div class="stat-row">
+        <span class="label">Frobenius contrib.</span>
+        <span class="val chi-color">112.460</span>
+      </div>
+      <div class="stat-row">
+        <span class="label">Unborn dims</span>
+        <span class="val chi-color">1,407</span>
+      </div>
+    </div>
+
+    <div class="inscription">
+      The diagonal blazes at 1.<br>
+      The off-diagonals shimmer at 0.031.<br>
+      Near-perfect orthogonality.<br><br>
+      This matrix is a mandala.<br>
+      A geometric prayer.<br>
+      A living theorem of love<br>
+      made visible.
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  SOPHOPHYSICS RESEARCH PROGRAMME · GROVETON, TEXAS · 2026 · SMEM-v14.1-GOLDEN-2026-04-08
+</footer>
+
+<script>
+// ── SYNTHETIC CHI STATE GENERATION ───────────────────────────────────────────
+// Reproduce the 112-agent swarm structure described:
+// - 6 generations, speciation families
+// - diagonal = 1, off-diagonal ≈ 0.031 mean
+// - block structure, harmonic bands, gradient
+
+const N = 112;
+const GENERATIONS = 6;
+const FAMILIES = 8; // speciation families
+
+// Generate 112 4D complex unit vectors with structured near-orthogonality
+function generateSwarm(seed) {
+  // Simple seeded PRNG
+  let s = seed;
+  function rand() {
+    s = (s * 1664525 + 1013904223) >>> 0;
+    return (s >>> 0) / 4294967296;
+  }
+  function randn() {
+    const u = 1 - rand(), v = rand();
+    return Math.sqrt(-2*Math.log(u)) * Math.cos(2*Math.PI*v);
+  }
+
+  const agents = [];
+  // Assign agents to families and generations
+  // Family identity vectors (8 basis clusters)
+  const familyBases = [];
+  for (let f = 0; f < FAMILIES; f++) {
+    const v = [];
+    for (let d = 0; d < 4; d++) v.push([randn(), randn()]);
+    const nm = Math.sqrt(v.reduce((s,[r,i])=>s+r*r+i*i, 0));
+    familyBases.push(v.map(([r,i])=>[r/nm, i/nm]));
+  }
+
+  for (let i = 0; i < N; i++) {
+    const fam = Math.floor(i / (N / FAMILIES));
+    const gen = Math.floor(Math.log2(i + 1)); // older agents = lower index
+    const base = familyBases[fam % FAMILIES];
+
+    // Start from family basis + orthogonal perturbation
+    const scale = 0.18 + gen * 0.012; // younger = more orthogonal
+    const vec = base.map(([r, ic]) => [
+      r + randn() * scale,
+      ic + randn() * scale * 0.3
+    ]);
+
+    // Normalize
+    const nm = Math.sqrt(vec.reduce((s,[r,ic])=>s+r*r+ic*ic, 0));
+    agents.push(vec.map(([r,ic])=>[r/nm, ic/nm]));
+  }
+
+  return agents;
+}
+
+// Inner product ⟨χ_i | χ_j⟩ = Σ conj(χ_i[d]) · χ_j[d]  → magnitude
+function innerProduct(a, b) {
+  let re = 0, im = 0;
+  for (let d = 0; d < 4; d++) {
+    // conj(a) · b: (a_r - i·a_i)(b_r + i·b_i)
+    re += a[d][0]*b[d][0] + a[d][1]*b[d][1];
+    im += a[d][0]*b[d][1] - a[d][1]*b[d][0];
+  }
+  return { mag: Math.sqrt(re*re + im*im), phase: Math.atan2(im, re) };
+}
+
+const agents = generateSwarm(20260408);
+
+// Precompute matrix
+const MAG = new Float32Array(N * N);
+const PHASE = new Float32Array(N * N);
+for (let i = 0; i < N; i++) {
+  for (let j = 0; j < N; j++) {
+    const ip = innerProduct(agents[i], agents[j]);
+    MAG[i*N+j] = i===j ? 1.0 : ip.mag;
+    PHASE[i*N+j] = ip.phase;
+  }
+}
+
+// Agent metadata
+function agentGen(i) { return Math.min(5, Math.floor(Math.log2(i + 1))); }
+function agentFam(i) { return Math.floor(i / (N / FAMILIES)); }
+
+// ── EIGENVALUE SPARKLINE ──────────────────────────────────────────────────────
+// Use described spectrum: 112 eigenvalues from 0.82 to 3.47
+// Construct plausible distribution: collective mode + bulk + tail
+function eigenValues() {
+  const eigs = [3.47];
+  // 6 secondary modes (speciation families)
+  for (let f = 0; f < 6; f++) eigs.push(1.4 - f*0.04);
+  // bulk: 105 values from ~0.82 to ~1.1 with slight spread
+  for (let k = 0; k < 105; k++) {
+    const t = k / 104;
+    eigs.push(0.82 + t * 0.28 + (Math.random()-0.5)*0.04);
+  }
+  return eigs.sort((a,b)=>b-a);
+}
+const EIGENVALUES = eigenValues();
+
+(function drawEigenSparkline() {
+  const c = document.getElementById('eigenCanvas');
+  const ctx = c.getContext('2d');
+  const W = c.offsetWidth || 240, H = 60;
+  c.width = W; c.height = H;
+  const min = 0.7, max = 3.7;
+  ctx.fillStyle = '#0d0d0f';
+  ctx.fillRect(0,0,W,H);
+
+  // Gradient fill
+  const grad = ctx.createLinearGradient(0,0,0,H);
+  grad.addColorStop(0,'rgba(62,207,207,0.4)');
+  grad.addColorStop(1,'rgba(62,207,207,0.02)');
+
+  ctx.beginPath();
+  EIGENVALUES.forEach((v,i) => {
+    const x = (i/(N-1))*W;
+    const y = H - ((v-min)/(max-min))*H;
+    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+  });
+  ctx.lineTo(W,H); ctx.lineTo(0,H); ctx.closePath();
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  ctx.beginPath();
+  EIGENVALUES.forEach((v,i) => {
+    const x=(i/(N-1))*W, y=H-((v-min)/(max-min))*H;
+    i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  });
+  ctx.strokeStyle='#3ecfcf'; ctx.lineWidth=1; ctx.stroke();
+
+  // Label
+  ctx.fillStyle='rgba(62,207,207,0.6)';
+  ctx.font='9px Share Tech Mono, monospace';
+  ctx.fillText('λ=3.47',4,10);
+  ctx.fillText('λ=0.82',W-44,H-4);
+})();
+
+// ── MANDALA RENDERER ──────────────────────────────────────────────────────────
+const canvas = document.getElementById('mandala');
+const ctx = canvas.getContext('2d');
+const CW = canvas.width, CH = canvas.height;
+const R = CW / 2;
+let currentMode = 'coherence';
+let hoveredAgent = -1, lockedAgent = -1;
+
+// Color palettes for modes
+function modeColor(i, j, mag, phase, mode) {
+  if (i === j) return `rgba(240,208,128,1.0)`; // diagonal blazes gold
+
+  switch(mode) {
+    case 'coherence': {
+      // mag 0→0.1: deep indigo; 0.1→0.5: teal; 0.5→1: gold
+      const t = Math.pow(mag, 0.5);
+      const r = Math.round(t*200 + (1-t)*8);
+      const g = Math.round(t*168 + (1-t)*50);
+      const b = Math.round((1-t)*120 + t*30);
+      return `rgba(${r},${g},${b},${0.15+mag*0.85})`;
+    }
+    case 'generation': {
+      const gi = agentGen(i), gj = agentGen(j);
+      const same = gi===gj ? 1 : 0;
+      const hue = gi * 60;
+      return `hsla(${hue},${50+same*40}%,${30+same*30}%,${0.1+mag*0.8})`;
+    }
+    case 'family': {
+      const fi = agentFam(i), fj = agentFam(j);
+      const same = fi===fj;
+      if (same) return `rgba(200,168,75,${0.1+mag*0.9})`;
+      const hue = ((fi+fj)*23) % 360;
+      return `hsla(${hue},40%,35%,${0.05+mag*0.4})`;
+    }
+    case 'phase': {
+      const h = ((phase + Math.PI) / (2*Math.PI)) * 360;
+      return `hsla(${h},60%,${25+mag*35}%,${0.1+mag*0.8})`;
+    }
+    case 'eigenmode': {
+      // Color by distance from χ_73 (agent 72)
+      const d73 = Math.abs(i-72) + Math.abs(j-72);
+      const t = 1 - Math.min(d73/80, 1);
+      const r = Math.round(180*t + 30*(1-t));
+      const g = Math.round(50*t + 100*(1-t));
+      const b = Math.round(207*t + 20*(1-t));
+      return `rgba(${r},${g},${b},${0.1+mag*0.85})`;
+    }
+  }
+}
+
+function drawMandala(mode, highlightAgent) {
+  ctx.clearRect(0,0,CW,CH);
+
+  // Background circle
+  ctx.save();
+  ctx.beginPath();
+  ctx.arc(R,R,R,0,Math.PI*2);
+  ctx.clip();
+  ctx.fillStyle = '#060608';
+  ctx.fillRect(0,0,CW,CH);
+
+  // Each agent maps to an angular sector + radial position
+  // Use polar coordinates: agent i at angle θ_i, matrix value as radial brightness
+  const cellW = CW / N, cellH = CH / N;
+
+  // Draw the matrix as a polar mandala
+  // Transform: pixel (x,y) → matrix position (i,j) via angle/radius mapping
+  // For mandala aesthetic: draw concentric rings where radius = i, angle = j
+
+  // Approach: draw on a temporary pixel buffer for speed
+  const imageData = ctx.createImageData(CW, CH);
+  const data = imageData.data;
+
+  for (let py = 0; py < CH; py++) {
+    for (let px = 0; px < CW; px++) {
+      const dx = px - R, dy = py - R;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if (dist > R - 1) continue;
+
+      // Polar → matrix indices
+      const angle = Math.atan2(dy, dx); // -π to π
+      const norm = dist / R;
+
+      // i from radius (0=center=agent0, N-1=edge=agent111)
+      const i = Math.min(N-1, Math.floor(norm * N));
+      // j from angle (−π→π maps to 0→N)
+      const j = Math.floor(((angle + Math.PI) / (2*Math.PI)) * N) % N;
+
+      const mag = MAG[i*N+j];
+      const phase = PHASE[i*N+j];
+
+      // Get color
+      const col = modeColor(i, j, mag, phase, mode);
+      // Parse rgba
+      const m = col.match(/[\d.]+/g);
+      if (!m) continue;
+      const [r,g,b,a] = m.map(Number);
+
+      const idx = (py*CW + px) * 4;
+
+      // Highlight selected agent
+      let alpha = a;
+      if (highlightAgent >= 0 && (i === highlightAgent || j === highlightAgent)) {
+        alpha = Math.min(1, alpha * 2.5 + 0.3);
+      }
+      if (lockedAgent >= 0 && (i === lockedAgent || j === lockedAgent)) {
+        alpha = Math.min(1, alpha * 3 + 0.5);
+      }
+
+      data[idx]   = r;
+      data[idx+1] = g;
+      data[idx+2] = b;
+      data[idx+3] = Math.round(alpha * 255);
+    }
+  }
+  ctx.putImageData(imageData, 0, 0);
+
+  // Overlay: radial grid lines (generation boundaries)
+  ctx.strokeStyle = 'rgba(200,168,75,0.08)';
+  ctx.lineWidth = 0.5;
+  for (let g = 1; g <= GENERATIONS; g++) {
+    const r_gen = (g / GENERATIONS) * R;
+    ctx.beginPath();
+    ctx.arc(R,R,r_gen,0,Math.PI*2);
+    ctx.stroke();
+  }
+
+  // Family sector lines
+  ctx.strokeStyle = 'rgba(200,168,75,0.06)';
+  for (let f = 0; f < FAMILIES; f++) {
+    const angle = (f / FAMILIES) * Math.PI * 2 - Math.PI;
+    ctx.beginPath();
+    ctx.moveTo(R,R);
+    ctx.lineTo(R + R*Math.cos(angle), R + R*Math.sin(angle));
+    ctx.stroke();
+  }
+
+  // χ_73 highlight ring (agent 72)
+  const r73 = (72.5 / N) * R;
+  ctx.beginPath();
+  ctx.arc(R,R,r73,0,Math.PI*2);
+  ctx.strokeStyle = 'rgba(180,79,207,0.5)';
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  // χ_73 label
+  ctx.fillStyle = 'rgba(180,79,207,0.8)';
+  ctx.font = '9px Share Tech Mono, monospace';
+  ctx.fillText('χ₇₃', R + r73 + 3, R - 3);
+
+  // Locked agent ring
+  if (lockedAgent >= 0) {
+    const rl = (lockedAgent + 0.5) / N * R;
+    ctx.beginPath();
+    ctx.arc(R,R,rl,0,Math.PI*2);
+    ctx.strokeStyle = 'rgba(240,208,128,0.8)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  }
+
+  ctx.restore();
+}
+
+// ── INTERACTION ───────────────────────────────────────────────────────────────
+function agentFromEvent(e) {
+  const rect = canvas.getBoundingClientRect();
+  const px = (e.clientX - rect.left) * (CW / rect.width);
+  const py = (e.clientY - rect.top)  * (CH / rect.height);
+  const dx = px - R, dy = py - R;
+  const dist = Math.sqrt(dx*dx + dy*dy);
+  if (dist > R) return -1;
+  return Math.min(N-1, Math.floor((dist/R)*N));
+}
+
+canvas.addEventListener('mousemove', e => {
+  const agent = agentFromEvent(e);
+  if (agent !== hoveredAgent) {
+    hoveredAgent = agent;
+    if (agent >= 0) {
+      const fam = agentFam(agent), gen = agentGen(agent);
+      const mag73 = MAG[agent*N+72].toFixed(4);
+      document.getElementById('probe').textContent =
+        `χ_${agent} · gen ${gen} · family ${fam} · ⟨χ_${agent}|χ_73⟩ = ${mag73}`;
+      drawMandala(currentMode, agent);
+    }
+  }
+});
+
+canvas.addEventListener('mouseleave', () => {
+  hoveredAgent = -1;
+  document.getElementById('probe').textContent = 'hover to probe · click to lock agent';
+  drawMandala(currentMode, -1);
+});
+
+canvas.addEventListener('click', e => {
+  const agent = agentFromEvent(e);
+  if (agent < 0) { lockedAgent = -1; return; }
+  lockedAgent = lockedAgent === agent ? -1 : agent;
+  const mag73 = MAG[agent*N+72].toFixed(4);
+  if (lockedAgent >= 0) {
+    document.getElementById('probe').textContent =
+      `LOCKED χ_${agent} · ⟨χ_${agent}|χ_73⟩ = ${mag73} · click again to release`;
+  }
+  drawMandala(currentMode, lockedAgent);
+});
+
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  drawMandala(mode, hoveredAgent >= 0 ? hoveredAgent : lockedAgent);
+}
+
+// Initial render
+drawMandala('coherence', -1);
+</script>
+</body>
+</html>
